@@ -10,7 +10,7 @@
 .team-container{
   width: 100%;
   min-height: 100px;
-  background: #222b47;
+  background: #fff;
   padding: 40px 50px 80px;
   overflow: hidden;
 }
@@ -20,15 +20,25 @@
   font-size: 48px;
   font-family: OpenSansBold;
   letter-spacing: 1.4px;
-  color: #fff;
-  margin-bottom: 55px;
   text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(34, 43, 71, 0.8);
+  color: #fff;
+  width: 100%;
+  max-width: 585px;
+  padding: 50px 10px 55px;
+  margin: 0 auto;
+  max-height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
 }
 
 .team-title:after {
   content: "";
   position: absolute;
-  bottom: -30px;
+  bottom: 40px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -59,7 +69,8 @@
 .team__item--description {
   min-height: 150px;
   width: 190px;
-  background: #fff;
+  background: #222b47;
+  color: #fff;
   position: relative;
   display: inline-block;
   padding: 70px 10px 0 10px;
@@ -72,7 +83,7 @@
   position: absolute;
   left: 0;
   bottom: -55px;
-  border-top: 55px solid #fff;
+  border-top: 55px solid #222b47;
   border-left: 95px solid transparent;
   border-right: 95px solid transparent;
 }
