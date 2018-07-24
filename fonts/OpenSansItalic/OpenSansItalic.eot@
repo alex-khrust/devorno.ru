@@ -1,0 +1,574 @@
+﻿<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113516667-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-113516667-1');
+    </script>
+    <meta charset="utf-8">
+    <title>Веб студия Devorno - разработка веб сайтов комплексно</title>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="Devorno веб студия, web studio Devorno, создание веб сайтов, разработка сайтов, дорогой дизайн, заказать сайт, посчитать стоимость сайта, сколько стоит сайт">
+    <link rel="stylesheet" type="text/css" href="http://devorno.ru/css/main-org.css">
+    <link rel="stylesheet" type="text/css" href="http://devorno.ru/fonts/OpenSansItalic/css/sumoselect.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '483582648495409');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=483582648495409&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+	
+	
+</head>
+<body>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function () { try { w.yaCounter47556604 = new Ya.Metrika({ id: 47556604, clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true, trackHash: true }); } catch (e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47556604" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    <header class="main-header" id="main-header">
+        <div class="main-header__top-banner"></div>
+        <div class="main-header__menu-bg">
+            <div class="container">
+                <nav class="main-header__nav">
+                    <ul class="main-header__nav__list">
+                        <li class="main-header__nav__list--item logo"><a href="OpenSansItalic.eot@#main-header"><img src="../../img/general/logo.png" alt="Logo"></a></li>
+                        <li><a class="main-header__nav__list--item" href="OpenSansItalic.eot@#why-we">О нас</a></li>
+                        <li><a class="main-header__nav__list--item" href="OpenSansItalic.eot@#portfolio">Портфолио</a></li>
+                        <li><a class="main-header__nav__list--item" href="OpenSansItalic.eot@#skills">Наши навыки</a></li>
+                        <li><a class="main-header__nav__list--item" href="OpenSansItalic.eot@#calc">Стоимость</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main-form">
+            <div class="container">
+                <div class="main-form__left">
+                    <div class="main-form__left__user-controls">
+                        <div class="main-form__left__user-controls--icon"><img src="../../img/general/phone-call.png" alt="Phone call"></div>
+                        <div class="main-form__left__user-controls__info">
+                            <ul class="main-form__left__user-controls__info__lang">
+                                <li class="main-form__left__user-controls__info__lang--item" id="hdRuPhone"><a href="OpenSansItalic.eot@#" class="ignoreJumping">RU</a></li>
+                                <li class="main-form__left__user-controls__info__lang--item" id="hdPlPhone"><a href="OpenSansItalic.eot@#" class="ignoreJumping">PL</a></li>
+                                <li class="main-form__left__user-controls__info__lang--item" id="hdUsPhone"><a href="OpenSansItalic.eot@#" class="ignoreJumping">US</a></li>
+                                <li class="main-form__left__user-controls__info__lang--item " id="hdUaPhone"> <a href="OpenSansItalic.eot@#" class="ignoreJumping">UA</a></li>
+                            </ul><a class="main-form__left__user-controls__info--phone" id="ahrefTelMainPage" href="tel:+7(499)4031-1323"> +7(499)4031-1323</a>
+                        </div>
+                    </div>
+                    <h1 class="main-form__left__title">Лендинг за 560000 руб</h1>
+                </div>
+                <div class="main-form__right">
+                    <div class="main-form-success hide">
+                        <div class="mf-success-wrapper">
+                            <div class="main-form-success--title">
+                                Спасибо!<br />
+                                <span class="main-form-success--body">Мы свяжемся с Вами в течении дня!</span>
+                            </div>
+                            <div class="mf-close-btn closebtn"><img src="../../img/general/mf-close-btn.png" alt="Закрыть"></div>
+                        </div>
+                    </div>
+                    <form class="main-form__right__form" id="frmContactUs" method="post" action="http://api.devorno.ru/api/mainpage/contactus" enctype="application/x-www-form-urlencoded">
+                        <input class="main-form__right__form--input name" title="Пожалуйста,введите Ваше имя." oninvalid="this.setCustomValidity('Пожалуйста,введите Ваше имя.')" pattern=".{3,}" required oninput="setCustomValidity('')" type="text" name="Name" maxlength="100" placeholder="Ваше имя">
+                        <input class="main-form__right__form--input phone" id="Phone" title="Пожалуйста,введите телефон" oninvalid="this.setCustomValidity('Пожалуйста, введите Вам номер телефона.')" oninput="setCustomValidity('')" placeholder="+7 (___) ___-____" data-input-type="tel" name="Phone" pattern=".{9,20}" required maxlength="25">
+                        <input type="hidden" id="mnlocaldatetime" name="localdatetime" />
+                        <input type="hidden" id="mip" name="IP" />
+                        <input class="g-btn" type="submit" id="btnFirstFrm" value="Отправить заявку"><span class="main-form__right__form--info">*Оставьте заявку и мы перезвоним Вам.</span><span class="main-form__right__form--info">
+                            <b>Мы свяжемся с Вами в течении рабочего дня.</b>
+                        </span>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-we" id="why-we">
+            <div class="container">
+                <div class="why-we__left">
+                    <div class="why-we__left__item solution">
+                        <div class="why-we__left__item--title">Комплексное решение</div>
+                        <div class="why-we__left__item--descr">Для ведения бизнеса в интернете. Разработка дизайна и стиля, создание веб сайта. Продвижение и реклама. Разработка ПО.</div>
+                    </div>
+                    <div class="why-we__left__item experience">
+                        <div class="why-we__left__item--title">Опыт сотрудников от<br>5 лет</div>
+                        <div class="why-we__left__item--descr">Мы очень ценим доверие наших клиентов.<br> На каждый проект выделяем менеджера которые будет сопровождать его. Опытные сотрудники помогут решить любые задачи.</div>
+                    </div>
+                </div>
+                <div class="why-we__center">
+                    <div class="why-we__center--title">Почему мы ?</div>
+                </div>
+                <div class="why-we__right">
+                    <div class="why-we__right__item technologies">
+                        <div class="why-we__right__item--title">Лучшие технологии</div>
+                        <div class="why-we__right__item--descr">Нам маркетинговый отдел полностью погружается в Вашу нишу, изучает ведущих конкурентов, анализирует форумы, отзывы и мнения о Вашем товаре или услуге, формирует список вопросов, который мы раскрываем на лэндинге</div>
+                    </div>
+                    <div class="why-we__right__item quality">
+                        <div class="why-we__right__item--title">Европейское качество</div>
+                        <div class="why-we__right__item--descr">Наша веб студия работает более 5 лет на территории Европы с СНГ. Регистрация предприятия <b> Devorno, Polska 00-375 Warszawa ul. Smolna 38/12, IKRS: 0000544580, NIP: 5252610781 </b></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="advantages__left">
+                <div class="advantages__left__uniqueness">
+                    <div class="advantages__left__uniqueness__content">
+                        <div class="advantages__left__uniqueness__content--title">Уникальность</div>
+                        <div class="advantages__left__uniqueness__content--descr">Вместо использования CMS мы предпочитаем разработку исключительно уникальных сайтов с нуля</div>
+                    </div>
+                </div>
+                <div class="advantages__left__hosting">
+                    <div class="advantages__left__hosting__content">
+                        <div class="advantages__left__hosting__content--title">Хостинг</div>
+                        <div class="advantages__left__hosting__content--descr">Мы обеспечиваем наших клиентов хостингом на целый год.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="advantages__right">
+                <div class="advantages__right__obstinacy">
+                    <div class="advantages__right__obstinacy__content">
+                        <div class="advantages__right__obstinacy__content--title">Упорство</div>
+                        <div class="advantages__right__obstinacy__content--descr">Мы очень любим нашу работу и всегда готовы встретить и преодолеть любые трудности при разработке</div>
+                    </div>
+                </div>
+                <div class="advantages__right__security">
+                    <div class="advantages__right__security__content">
+                        <div class="advantages__right__security__content--title">Безопасность</div>
+                        <div class="advantages__right__security__content--descr">При разработке мы используем технологии Microsoft и оперативно размещаем сайты в современном и безопасном облаке Azure</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="portfolio-container">
+                <div class="portfolio-container__item first">
+                    <div class="first--title">
+                        Наши последние
+                        <div class="bold">Работы</div>
+                    </div>
+                    <div class="first--subtitle">каждый проект-наше детище, мы его любим и развиваем с любовью.</div>
+                </div>
+                <div class="portfolio-container__item">
+                    <img src="https://devorno.com/scr/kiflik-small.png" alt="Аренда авто">
+                    <div class="item-hover">
+                        <div class="item-hover--title">Ресторан</div>
+                        <div class="item-hover--subtitle">Сайт ресторана<br> Сайт выполнен в стиле интерьера ресторана</div><a class="item-hover--btn g-btn" href="https://devorno.com/scr/kiflik.jpg" data-lightbox="projects">Посмотреть</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-container__item">
+                    <img src="https://devorno.com/scr/rent-small.png" alt="Аренда авто">
+                    <div class="item-hover">
+                        <div class="item-hover--title">Аренда авто в Швейцарии</div>
+                        <div class="item-hover--subtitle">Лендинг<br> Для компании в Швейцарии</div><a class="item-hover--btn g-btn" href="https://devorno.com/scr/rent.jpg" data-lightbox="projects">Посмотреть</a>
+                    </div>
+                </div>
+                <div class="portfolio-container__item">
+                    <img src="https://devorno.com/scr/photographer-small.png" alt="Студия фотографии">
+                    <div class="item-hover">
+                        <div class="item-hover--title">Студия фотографа</div>
+                        <div class="item-hover--subtitle">Интересный дизайн<br /> для фотоателье </div><a class="item-hover--btn g-btn" href="https://devorno.com/scr/photographer.png" data-lightbox="projects">Посмотреть</a>
+                    </div>
+                </div>
+                <div class="portfolio-container__item">
+                    <img src="https://devorno.com/scr/bringscreen-small.png" alt="bringscreen">
+                    <div class="item-hover">
+                        <div class="item-hover--title">BringSceen</div>
+                        <div class="item-hover--subtitle">Приложение для <br>скриншотов</div><a class="item-hover--btn g-btn" href="https://devorno.com/scr/bringscreen.png" data-lightbox="projects">Посмотреть</a>
+                    </div>
+                </div>
+                <div class="portfolio-container__item">
+                    <img src="https://devorno.com/scr/quest-small.png" alt="Chess">
+                    <div class="item-hover">
+                        <div class="item-hover--title">Сайт квестов</div>
+                        <div class="item-hover--subtitle">Квест комната, квесты онлайн<br></div><a class="item-hover--btn g-btn" href="https://devorno.com/scr/quest.png" data-lightbox="projects">Посмотреть</a>
+                    </div>
+                </div>
+                <div class="portfolio-container__item">
+                    <img src="https://devorno.com/scr/santa-small.png" alt="Письма от деда мороза">
+                    <div class="item-hover">
+                        <div class="item-hover--title">Письма от санты</div>
+                        <div class="item-hover--subtitle">Заказ писем от деда мороза<br>для детей</div><a class="item-hover--btn g-btn" href="https://devorno.com/scr/santa.png" data-lightbox="projects">Посмотреть</a>
+                    </div>
+                </div>
+                <div class="portfolio-container__item">
+                    <img src="https://devorno.com/scr/stop-shop-small.png" alt="Интернет магазин">
+                    <div class="item-hover">
+                        <div class="item-hover--title">Интернет магазин</div>
+                        <div class="item-hover--subtitle">Одежда и игрушки для детей<br> </div><a class="item-hover--btn g-btn" href="https://devorno.com/scr/stop-shop.png" data-lightbox="projects">Посмотреть</a>
+                    </div>
+                </div>
+                <div class="portfolio-container__item">
+                    <img src="https://devorno.com/scr/turk-small.png" alt="Недвижимость у моря">
+                    <div class="item-hover">
+                        <div class="item-hover--title">Недвижимость Турции</div>
+                        <div class="item-hover--subtitle">Продажа и аренда <br>недвижимости у моря</div><a class="item-hover--btn g-btn" href="https://devorno.com/scr/turk.png" data-lightbox="projects">Посмотреть</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-container__item">
+                    <img src="https://devorno.com/scr/fit-small.png" alt="Фитнес">
+                    <div class="item-hover">
+                        <div class="item-hover--title">Фитнес клуб Австралии</div>
+                        <div class="item-hover--subtitle">Продажа индивидуальных занятий </div><a class="item-hover--btn g-btn" href="https://devorno.com/scr/fit.jpg" data-lightbox="projects">Посмотреть</a>
+                    </div>
+                </div>
+                <div class="portfolio-container__item last " style="display:none;">
+                    <div class="last--title">Х<br>+33 работы</div>
+                </div>
+            </div>
+        </section>
+        <section class="want">
+            <div class="container">
+                <div class="want__info">
+                    <div class="want__info--title">Хотите так же?</div>
+                    <div class="want__info--descr">Оставьте заявку на бесплатную конcультацию и наш менеджер свяжется с Вами в ближайшее время</div>
+                </div>
+                <form class="want__form" action="http://api.devorno.ru/api/mainpage/contactrequest" id="frmWants" method="post" enctype="application/x-www-form-urlencoded">
+                    <div class="want-form-success hide">
+                        <div class="wf-success-wrapper">
+                            <div class="want-form-success--title">Спасибо!</div>
+                            <div class="wf-close-btn closebtn"><img src="../../img/general/mf-close-btn.png" alt="Close Btn"></div>
+                        </div>
+                    </div>
+                    <div class="want__form__top">
+                        <input class="want__form__top--name" type="text" maxlength="120" pattern=".{3,}" title="Пожалуйста,введите Ваше имя." oninvalid="this.setCustomValidity('Пожалуйста,введите Ваше имя.')" required oninput="setCustomValidity('')" name="name" placeholder="Ваше имя">
+                        <input class="want__form__top--email" type="email" maxlength="120" pattern=".{5,}" title="Пожалуйста,введите Ваш e-mail." oninvalid="this.setCustomValidity('Пожалуйста,введите Ваш e-mail.')" required oninput="setCustomValidity('')" name="email" placeholder="Ваш Email">
+                        <input type="hidden" id="wnlocaldatetime" name="localdatetime" />
+                        <input type="hidden" id="wip" name="IP" />
+                    </div>
+                    <textarea class="want__form--message" name="Comments" cols="30" rows="5" placeholder="Сообщение"></textarea>
+                    <input class="want-order g-btn" id="bntFrmWantsSubmit" type="submit" name="want-order" value="Отправить заявку">
+                    <b>Нажимая на "Отправить заявку " Вы  автоматически соглашетесь с <a href="../../police-ru.html">правилами обработки персональных данных</a></b>
+                </form>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="skills__left">
+                <div class="skills_wrapper">
+                    <div class="skills__left--title">Наши навыки</div>
+                    <div class="skills__left--subtitle">Команда первоклассных профессионалов в каждом направлении</div>
+                    <ul class="skills__left__list">
+                        <li class="skills__left__list--item">Разработка веб сайтов</li>
+                        <li class="skills__left__list--item">Дизайн</li>
+                        <li class="skills__left__list--item">Реклама (СНГ и Западная Европа)</li>
+                        <li class="skills__left__list--item">Продвижение в соц сетях</li>
+                        <li class="skills__left__list--item">Разработка ПО</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skills-right">
+                <div class="skills-right__info">
+                    <p>Вы можете иметь безупречный товар или услугу, но если Вы не можете донести Ваше предложение конечному потребителю (клиенту), то Ваш бизнес под угрозой.</p>
+                    <p>Наша команда маркетологов является настоящими профессионалами в упаковке предложений, создании и разработки продающих текстов и УТП. Грамотно подать и преподнести бизнес - это искусство, которому надо учиться. </p>
+                    <p>В нашей команде работают сертифицированные специалисты Yandex Direct и Google Adwords. И они точно знают, как донести Ваше предложение тем людям, которые уже в нем заинтересованы и подать его так, что не купить будет невозможно</p>
+                </div>
+                <uL class="skills-right__list">
+                    <li class="skills-right__list--item">Настройку Yandex Direct (поиск и РСЯ)</li>
+                    <li class="skills-right__list--item">Настройку Google Adwords (поиск и КМС)</li>
+                    <li class="skills-right__list--item">Настройку видео-рекламы на Youtube</li>
+                    <li class="skills-right__list--item">Рекламу в соц.сетях</li>
+                    <li class="skills-right__list--item">Поиск базовых запросов для Вашей ниши</li>
+                    <li class="skills-right__list--item">Составление семантического ядра</li>
+                    <li class="skills-right__list--item">Написание объявлений с УТП</li>
+                    <li class="skills-right__list--item">Разбиваем все объявления на группы</li>
+                    <li class="skills-right__list--item">Ведение, аналитика и улучшение рекламы</li>
+                </uL>
+            </div>
+        </section>
+        <section class="excellence">
+            <div class="excellence__container">
+                <div class="excellence__blue">
+                    <div class="excellence__blue__info">
+                        <div class="info-container">
+                            <div class="excellence__blue__info--title">Мы не используем CMS ( движки для сайтов )</div>
+                            <div class="excellence__blue__info--descr">Cайт создается с нуля под потребности<br>клиента, а это стабильность и безопасность.</div>
+                        </div>
+                    </div><a class="excellence__blue__btn" href="OpenSansItalic.eot@#main-header"><span>Заказать</span></a>
+                    <div class="excellence__blue_img"><img src="../../img/content/exc-blue1.jpg" alt="Blue 1"></div>
+                </div>
+                <div class="excellence__red">
+                    <div class="excellence__red__info">
+                        <div class="info-container">
+                            <div class="excellence__red__info--title">Размещение веб-сайтов в Azure (облачный хостинг от майкрософта)</div>
+                            <div class="excellence__red__info--descr">Защита от вмешательств со стороны органов<br>безопасность, скорость, масштабирование.</div>
+                        </div>
+                    </div><a class="excellence__red__btn" href="OpenSansItalic.eot@#main-header"><span>Заказать</span></a>
+                    <div class="excellence__red_img"><img src="../../img/content/exc-red1.jpg" alt="Red 1"></div>
+                </div>
+                <div class="excellence__blue">
+                    <div class="excellence__blue__info">
+                        <div class="info-container">
+                            <div class="excellence__blue__info--title">Мы работаем только с интересными проектами</div>
+                            <div class="excellence__blue__info--descr">Не гоняемся за количеством, а делаем качественные интересные<br>проекты. <br>Те проекты, которые нам не по душе, мы не сможем сделать <br>хорошо,а значит не будем делать вообще.</div>
+                        </div>
+                    </div><a class="excellence__blue__btn" href="OpenSansItalic.eot@#main-header"><span>Заказать</span></a>
+                    <div class="excellence__blue_img"><img src="../../img/content/exc-blue2.jpg" alt="Blue 1"></div>
+                </div>
+                <div class="excellence__red">
+                    <div class="excellence__red__info">
+                        <div class="info-container">
+                            <div class="excellence__red__info--title">Долгосрочные отношения</div>
+                            <div class="excellence__red__info--descr">Выстраиваем долгосрочные отношения с клиентами<br>Помогая развивать бизнес клиента, <br>мы сохраняем теплые отношения на долгие годы.</div>
+                        </div>
+                    </div><a class="excellence__red__btn" href="OpenSansItalic.eot@#main-header"><span>Заказать</span></a>
+                    <div class="excellence__red_img"><img src="../../img/content/exc-red2.jpg" alt="Red 1"></div>
+                </div>
+            </div>
+        </section>
+        <section class="calc" id="calc">
+            <div class="container">
+                <div class="calc--title">Калькулятор стоимости сайтов</div>
+                <div class="slider">
+                    <div class="main-slider--item">
+                        <div class="types">
+                            <h3>Нажмите на тип сайта который Вам подходит, для расчета стоимости</h3>
+                            <div class="types__item" data-sitetype="vizitka">
+                                <div class="types__item--title">
+                                    Продающий лендинг<br />
+                                    <h3>цена от 39999 руб.</h3>
+                                </div>
+                                <div class="types__item--subtitle">Идеально подойдет для описания/ продажи одной услуги и/или продукта</div>
+                                <ul class="types__item__list">
+                                    <li class="types__item__list--item">Адвокат</li>
+                                    <li class="types__item__list--item">Частные перевозки</li>
+                                    <li class="types__item__list--item">Ремонт квартир, техники</li>
+                                    <li class="types__item__list--item">Нотариус</li>
+                                </ul>
+                            </div>
+                            <div class="types__item" data-sitetype="obout">
+                                <div class="types__item--title">
+                                    Сайт о компании <br />
+                                    <h3>цена от 79999 руб.</h3>
+                                </div>
+                                <div class="types__item--subtitle">Производство оптовые продажи</div>
+                                <ul class="types__item__list">
+                                    <li class="types__item__list--item">Завод или фабрика</li>
+                                    <li class="types__item__list--item">Представитель иностранной фирмы</li>
+                                    <li class="types__item__list--item">Автосалоны</li>
+                                </ul>
+                            </div>
+                            <div class="types__item no-bmargin" data-sitetype="shop">
+                                <div class="types__item--title">Интернет магазин <br /> <h3>цена от 119999 руб.</h3></div>
+                                <div class="types__item--subtitle">Продажа онлайн товаров и / или услуг</div>
+                                <ul class="types__item__list">
+                                    <li class="types__item__list--item">Магазин</li>
+                                    <li class="types__item__list--item">Тур фирмы</li>
+                                    <li class="types__item__list--item">Гостиничный бизнес</li>
+                                </ul>
+                            </div>
+                            <div class="types__item no-bmargin" data-sitetype="etc">
+                                <div class="types__item--title">Эксклюзивный проект <br /> <h3>цена завист от проекта</h3></div>
+                                <div class="types__item--subtitle">То что не подходит под описание в других категориях</div>
+                                <ul class="types__item__list">
+                                    <li class="types__item__list--item">Портал</li>
+                                    <li class="types__item__list--item">Новостной сайт</li>
+                                    <li class="types__item__list--item">Служба знакомств</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-slider--item">
+                        <div class="calc-form__wrapper">
+                            <form class="calc-user-form" id="formcalc2">
+                                <div class="design">
+                                    <div class="design--title text line">Дизайн сайта</div>
+                                    <p>
+                                        <input type="radio" id="rad1" name="r1" value="simple" checked>
+                                        <label for="rad1">Самый простой</label>
+                                    </p>
+                                    <p>
+                                        <input type="radio" id="rad2" name="r1" value="medium">
+                                        <label for="rad2">Среднее (цена/качество)</label>
+                                    </p>
+                                    <p>
+                                        <input type="radio" id="rad3" name="r1" value="best">
+                                        <label for="rad3">На дизайне не экономить</label>
+                                    </p>
+                                </div>
+                                <div class="right">
+                                    <div class="right--title text line">Наполнение сайта</div>
+                                    <p>
+                                        <input type="radio" id="radr1" name="r2" checked value="we">
+                                        <label for="radr1">Информацию вносить будете Вы или Ваш сотрудник</label>
+                                    </p>
+                                    <p>
+                                        <input type="radio" id="radr2" name="r2" value="they">
+                                        <label for="radr2">Информацию вносим мы</label>
+                                    </p>
+                                </div>
+                                <div class="moduls">
+                                    <div class="moduls--title text line">Дополнительные модули</div>
+                                    <p>
+                                        <select name="moduls" multiple="multiple" id="ddlAdditionalModules"></select>
+                                    </p>
+                                </div>
+                                <div class="need-logo">
+                                    <div class="need-logo--title text line">Нужен ли логотип?</div>
+                                    <p>
+                                        <input type="radio" id="radl1" name="r3" value="1" checked>
+                                        <label for="radl1">Да</label>
+                                    </p>
+                                    <p>
+                                        <input type="radio" id="radl2" name="r3" value="0">
+                                        <label for="radl2">Нет</label>
+                                    </p>
+                                </div>
+                                <div class="descr">
+                                    <label class="calc-form--descr text" for="descr">Опишите сайт, который Вам нужен, его задачи, Ваши цели </label>
+                                    <textarea id="descr" maxlength="500" title="Error" name="descr" required cols="30" rows="10"></textarea>
+                                </div>
+                                <span style="color:#FE0844;" class="hide" id="errorstep2">Пожалуйста опишите сайт который Вам необходим</span>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="main-slider--item">
+                        <div class="calc-form__wrapper">
+                            <form class="calc-form" id="frmlaststep">
+                                <label class="calc-form--sites text" for="sites">Перечислите сайты, которые Вам нравятся и почему (сайты могут быть даже не с той сферы в которой Вы работаете) </label>
+                                <textarea id="sites" name="sites" cols="30" rows="10" maxlength="500"></textarea>
+                                <label class="calc-form--sites text" for="ourmessage">Дополнительные комментарии или Ваши вопросы </label>
+                                <textarea id="ourmessage" name="ourmessage" cols="30" maxlength="500" rows="10"></textarea>
+                                <div class="shot-info">
+                                    <div class="shot-info--title text">Контакты для получения оценки стоимости</div>
+                                    <div class="shot-info__inputs">
+                                        <input class="inp-name" type="text" maxlength="100" id="calcName" name="name" placeholder="Ваше имя">
+                                        <input class="inp-email" type="email" id="calcEmail" maxlength="200" name="email" placeholder="Ваш Email">
+                                    </div>
+                                    <span style="color:#FE0844;" class="hide" id="errorstep3"></span>
+                                </div>
+                                <input class="calc-order g-btn" type="button" onclick="SendCalc();" name="calc-order" id="calc-order" value="Сохранить и отправить">
+                                <b>Нажимая на "Сохранить и отправить" Вы  автоматически соглашетесь с <a href="../../police-ru.html">правилами обработки персональных данных</a></b>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="main-slider--item">
+                        <div class="calc-thenks-wrapper">Спасибо!<br>Мы скоро с Вами свяжемся </div>
+                    </div>
+                </div>
+                <div class="slider_arrows" style="display: none;">
+                    <div class="slider__prew-arrow"><img src="../../img/general/prew-arrow.jpg" alt="Prew arrow"></div>
+                    <div class="slider__nex-arrow"><img src="../../img/general/nex-arrow.jpg" alt="Next arrow"></div>
+                </div>
+            </div>
+        </section>
+        <aside class="main-aside">
+            <div class="main-aside__orange">
+                <div class="main-aside__orange__contacts">
+                    <ul class="main-aside__orange-leng">
+                        <li class="main-aside__orange-leng--item" id="lmRuPhone"><a href="OpenSansItalic.eot@#" class="ignoreJumping">RU</a></li>
+                        <li class="main-aside__orange-leng--item" id="lmPlPhone"><a href="OpenSansItalic.eot@#" class="ignoreJumping">PL</a></li>
+                        <li class="main-aside__orange-leng--item" id="lmUsPhone"><a href="OpenSansItalic.eot@#" class="ignoreJumping">US</a></li>
+                        <li class="main-aside__orange-leng--item" id="lmUaPhone"><a href="OpenSansItalic.eot@#" class="ignoreJumping">UA</a></li>
+                    </ul><a class="main-aside__orange--phone" id="ahrefTelLeftMenu" href="tel:+7(499)4031-1323">+7(499)4031-1323</a><a class="main-aside__orange--email" href="http://www.google.com/recaptcha/mailhide/d?k=01oxK4h5B7wOa1pRAWE0EEFQ==&amp;c=6fo-459-ViczJnpBe0P8_qfSd_lsVAKTD8w4uNJJzKA=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01oxK4h5B7wOa1pRAWE0EEFQ\x3d\x3d\x26c\x3d6fo-459-ViczJnpBe0P8_qfSd_lsVAKTD8w4uNJJzKA\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">s...@devorno.com</a>
+
+                </div>
+                <ul class="main-aside__orange__menu">
+                    <li class="main-aside__orange__menu--item"><a href="OpenSansItalic.eot@#why-we">О нас</a></li>
+                    <li class="main-aside__orange__menu--item"><a href="OpenSansItalic.eot@#portfolio">Портфолио</a></li>
+                    <li class="main-aside__orange__menu--item"><a href="OpenSansItalic.eot@#skills">Наши навыки</a></li>
+                    <li class="main-aside__orange__menu--item"><a href="OpenSansItalic.eot@#calc">Стоимость</a></li>
+                </ul>
+                <ul class="main-aside__orange__social">
+                    <li class="main-aside__orange__social--item"><a href="OpenSansItalic.eot@#"><img src="../../img/general/twitter.png" alt="Tweeter"></a></li>
+                    <li class="main-aside__orange__social--item"><a href="OpenSansItalic.eot@#"><img src="../../img/general/instagram.png" alt="Instagramm"></a></li>
+                    <li class="main-aside__orange__social--item"><a href="OpenSansItalic.eot@#"><img src="../../img/general/facebook.png" alt="Facebook"></a></li>
+                </ul>
+            </div>
+            <div class="main-aside__blue">
+                <a class="main-aside__blue--open"><img src="../../img/general/mob-menu.png" alt="Mob-menu"></a><a class="main-aside__blue--close"><img src="../../img/general/close.png" alt="Close"></a>
+                <ul class="aside-dots">
+                    <li class="aside-dots--item"><a class="active-li why-we-a" href="OpenSansItalic.eot@#why-we"></a></li>
+                    <li class="aside-dots--item"><a class="portfolio-a" href="OpenSansItalic.eot@#portfolio"></a></li>
+                    <li class="aside-dots--item"><a class="skills-a" href="OpenSansItalic.eot@#skills"></a></li>
+                    <li class="aside-dots--item"><a class="calc-a" href="OpenSansItalic.eot@#calc"></a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+            <a class="main-footer--logo" href="OpenSansItalic.eot@#main-header"><img src="../../img/general/footer-logo.png" alt="Footer logo"></a>
+            <ul class="main-footer__nav">
+                <li><a class="main-footer__nav--item" href="OpenSansItalic.eot@#why-we"> О нас</a></li>
+                <li> <a class="main-footer__nav--item" href="OpenSansItalic.eot@#portfolio">  Портфолио</a></li>
+                <li> <a class="main-footer__nav--item" href="OpenSansItalic.eot@#skills">  Наши навыки</a></li>
+                <li><a class="main-footer__nav--item" href="OpenSansItalic.eot@#calc">  Стоимость</a></li>
+            </ul>
+            <div class="main-footer__social">
+                <div class="main-footer__social--title">Мы в социальных сетях:</div>
+               <ul class="main-footer__social__list">
+                
+                    <li class="main-footer__social__list--item">
+                        <a href="http://instagram.com/devorno">
+                            <img src="http://devorno.ru/fonts/OpenSansItalic/img/general/instagram.png" alt="Instagramm">
+                        </a>
+                    </li>
+                    <li class="main-footer__social__list--item">
+                        <a href="https://facebook.com/devorno" target="_blank">
+                            <img src="http://devorno.ru/fonts/OpenSansItalic/img/general/facebook.png" alt="Facebook">
+                        </a>
+                    </li>
+                </ul><br />
+                <div class="main-footer__social--title"><b>Polska 00-375 Warszawa <br />ul. Smolna 38/12,<br /> IKRS: 0000544580, <br />NIP: 5252610781 </b></div>
+            </div>
+            <div class="main-footer__contscts">
+               <ul class="main-footer__contscts__phones">
+                    <li class="main-footer__contscts__phones--item">
+                        <a href="tel:79585815132">+7(958)581-51-32</a>
+						
+                    </li>
+                    <li class="main-footer__contscts__phones--item">
+                        <a href="tel:421908388766">+421(908)388-766</a>
+                    </li>
+                    
+                </ul>
+                <div class="main-footer__contscts__email"><a href="http://www.google.com/recaptcha/mailhide/d?k=01oxK4h5B7wOa1pRAWE0EEFQ==&amp;c=6fo-459-ViczJnpBe0P8_qfSd_lsVAKTD8w4uNJJzKA=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01oxK4h5B7wOa1pRAWE0EEFQ\x3d\x3d\x26c\x3d6fo-459-ViczJnpBe0P8_qfSd_lsVAKTD8w4uNJJzKA\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">s...@devorno.com</a></div>
+            </div>
+            <div class="main-footer__up-btn">
+                <a href="OpenSansItalic.eot@#main-header">
+                    <img src="../../img/general/up-btn.png" alt="Up batton">
+                    <div class="main-footer__up-btn--title">Вверх</div>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/libs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@1.5.4/src/loadingoverlay.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.sumoselect.min.js"></script>
+    <script src="../../js/main.js"></script>
+    <script src="http://devorno.ru/js/bindval.js"></script>
+    <link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+    <script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=343853a193c673b5af6c2c7d243583c3" charset="UTF-8" async nomaps></script>
+    <script type="text/javascript">
+
+
+
+
+
+    </script>
+</body>
+</html>
