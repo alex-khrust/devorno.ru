@@ -1,0 +1,224 @@
+.team {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team-container{
+  width: 100%;
+  min-height: 100px;
+  background: #222b47;
+  padding: 40px 50px 80px;
+  overflow: hidden;
+}
+
+.team-title {
+  position: relative;
+  font-size: 48px;
+  font-family: OpenSansBold;
+  letter-spacing: 1.4px;
+  color: #fff;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.team-title:after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 68px;
+  height: 2px;
+  background-color: #ff0844;
+}
+
+.team-items {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team__item {
+  width: 25%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team__item:nth-child(n+5) {
+  width: 33%;
+}
+
+.team__item--description {
+  min-height: 150px;
+  width: 190px;
+  background: #fff;
+  position: relative;
+  display: inline-block;
+  padding: 70px 10px 0 10px;
+  text-align: center;
+}
+.team__item--description:after {
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: -55px;
+  border-top: 55px solid #fff;
+  border-left: 95px solid transparent;
+  border-right: 95px solid transparent;
+}
+.team__item--description h5 {
+  margin: 15px 20px;
+}
+.team__item--description h5:after {
+  content: "";
+  position: absolute;
+  bottom: 45px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 25px;
+  height: 2px;
+  background-color: #ff0844;
+}
+
+.hexagon {
+  position: relative;
+  width: 120px;
+  height: 69.28px;
+  margin: 34.64px 0;
+  background-image: url(foto-team/photoshop_002.jpg);
+  background-size: auto 133.9453px;
+  background-position: center;
+  border-left: solid 2px #ff0000;
+  border-right: solid 2px #ff0000;
+  display: inline-block;
+  top: 70px;
+  z-index: 10;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 84.85px;
+  height: 84.85px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 15.57px;
+}
+
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 116.0000px;
+  height: 66.9726312259966px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-33.4863px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-33.4863px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-33.4863px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -42.4264px;
+  border-top: solid 2.8284px #ff0000;
+  border-right: solid 2.8284px #ff0000;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -42.4264px;
+  border-bottom: solid 2.8284px #ff0000;
+  border-left: solid 2.8284px #ff0000;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 1.1547px;
+  left: 0;
+  width: 116.0000px;
+  height: 66.9726px;
+  z-index: 2;
+  background: inherit;
+}
+
+.member-2 .hexagon {
+  background-image: url(foto-team/photoshop_003.jpg);
+}
+.member-3 .hexagon {
+  background-image: url(foto-team/photoshop_004.jpg);
+}
+.member-4 .hexagon {
+  background-image: url(foto-team/photoshop_005.jpg);
+}
+
+
+
+.team__item--hexagon {
+  position: relative;
+}
+
+.hexagon--border {
+  width: 134px;
+  height: 77.94px;
+  background-color: transparent;
+  margin: 0;
+  border-left: solid 4px #ff0000;
+  border-right: solid 4px #ff0000;
+  position: absolute;
+  top: 100px;
+  left: -7px;
+  z-index: 10;
+}
+
+.hexagon--border:before,
+.hexagon--border:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 95.46px;
+  height: 95.46px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 15.7703px;
+}
+
+.hexagon--border:before {
+  top: -47.7297px;
+  border-top: solid 5.6569px #ff0000;
+  border-right: solid 5.6569px #ff0000;
+}
+
+.hexagon--border:after {
+  bottom: -47.7297px;
+  border-bottom: solid 5.6569px #ff0000;
+  border-left: solid 5.6569px #ff0000;
+}
+
