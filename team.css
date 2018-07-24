@@ -233,3 +233,41 @@
   border-left: solid 5.6569px #ff0000;
 }
 
+@media (min-width: 320px) {
+  .team-container {
+    padding: 0;
+  }
+  .team__item,
+  .team__item:nth-child(n+5) {
+    width: 100%;
+  }
+}
+
+@media (min-width: 446px) {
+  .team-container {
+    padding: 0;
+  }
+  .team__item,
+  .team__item:nth-child(n+5) {
+    width: 50%;
+  }
+}
+@media (min-width: 638px) {
+  .team-container {
+    padding: 0;
+  }
+  .team__item {
+    width: 33%;
+  }
+}
+@media (min-width: 826px) {
+  .team-container {
+    padding: 0;
+  }
+  .team__item {
+    width: 25%;
+  }
+  .team__item:nth-child(n+5) {
+    width: 33%;
+  }
+}
