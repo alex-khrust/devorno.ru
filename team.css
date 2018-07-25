@@ -250,11 +250,10 @@
   }
 }
 @media (min-width: 738px) {
-  .team__item {
+  .team__item,
+  .team__item:nth-child(4),
+  .team__item:nth-child(n+5) {
     width: 33%;
-  }
-  .team__item:nth-child(4) {
-    width: 50%;
   }
 }
 @media (min-width: 930px) {
