@@ -1352,12 +1352,12 @@
     <script type="text/javascript">
         $(document).ready(function() {
           var windowWidth = $(window).width();
-          if(windowWidth > 768)$("#teamItems").addClass("owl-carousel");
+          if(windowWidth < 738)$("#teamItems").addClass("owl-carousel");
           else $("#teamItems").removeClass("owl-carousel");
 
           $(window).resize(function(){
             var windowWidth = $(window).width();
-            if(windowWidth > 768)$("#teamItems").addClass("owl-carousel");
+            if(windowWidth < 738)$("#teamItems").addClass("owl-carousel");
             else $("#teamItems").removeClass("owl-carousel");
           });
         });

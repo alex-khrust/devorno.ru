@@ -3,7 +3,6 @@ var validStep = 0;
 var currentStep = "";
 $(document).ready(function () {
     svg4everybody({});
-    bindData(GetJson());
 
     $('.slider').slick({
 

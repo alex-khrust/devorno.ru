@@ -261,6 +261,9 @@
   .team__item:nth-child(n+5) {
     width: 33%;
   }
+  .team-container {
+    padding: 40px 50px 80px;
+  }
 }
 @media (min-width: 930px) {
   .team__item {
