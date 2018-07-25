@@ -264,6 +264,9 @@
   .team-container {
     padding: 40px 50px 80px;
   }
+  #carousel {
+    display: none;
+  }
 }
 @media (min-width: 930px) {
   .team__item {
@@ -275,4 +278,8 @@
   .team__item:nth-child(n+5) {
     width: 33%;
   }
+}
+
+.owl-carousel .owl-stage-outer {
+  overflow: visible !important;
 }

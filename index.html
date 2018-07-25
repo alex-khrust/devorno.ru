@@ -572,6 +572,86 @@
                 </div>
               </li>
             </ul>
+            <ul id="carousel" class="team-items owl-carousel">
+              <li class="team__item member-1">
+                <div class="team__item--hexagon">
+                  <div class="hexagon">
+                    <div class="hexTop"></div>
+                    <div class="hexBottom"></div>
+                  </div>
+                  <div class="hexagon--border"></div>
+                </div>
+                <div class="team__item--description">
+                  <h5>Имя Фамилия</h5>
+                  <p>Должность</p>
+                </div>
+              </li>
+              <li class="team__item member-2">
+                <div class="team__item--hexagon">
+                  <div class="hexagon">
+                    <div class="hexTop"></div>
+                    <div class="hexBottom"></div>
+                  </div>
+                  <div class="hexagon--border"></div>
+                </div>
+                <div class="team__item--description">
+                  <h5>Имя Фамилия</h5>
+                  <p>Должность</p>
+                </div>
+              </li>
+              <li class="team__item member-3">
+                <div class="team__item--hexagon">
+                  <div class="hexagon">
+                    <div class="hexTop"></div>
+                    <div class="hexBottom"></div>
+                  </div>
+                  <div class="hexagon--border"></div>
+                </div>
+                <div class="team__item--description">
+                  <h5>Имя Фамилия</h5>
+                  <p>Должность</p>
+                </div>
+              </li>
+              <li class="team__item member-4">
+                <div class="team__item--hexagon">
+                  <div class="hexagon">
+                    <div class="hexTop"></div>
+                    <div class="hexBottom"></div>
+                  </div>
+                  <div class="hexagon--border"></div>
+                </div>
+                <div class="team__item--description">
+                  <h5>Имя Фамилия</h5>
+                  <p>Должность</p>
+                </div>
+              </li>
+              <li class="team__item member-5">
+                <div class="team__item--hexagon">
+                  <div class="hexagon">
+                    <div class="hexTop"></div>
+                    <div class="hexBottom"></div>
+                  </div>
+                  <div class="hexagon--border"></div>
+                </div>
+                <div class="team__item--description">
+                  <h5>Имя Фамилия</h5>
+                  <p>Должность</p>
+                </div>
+              </li>
+              <li class="team__item member-6">
+                <div class="team__item--hexagon">
+                  <div class="hexagon">
+                    <div class="hexTop"></div>
+                    <div class="hexBottom"></div>
+                  </div>
+                  <div class="hexagon--border"></div>
+                </div>
+                <div class="team__item--description">
+                  <h5>Имя Фамилия</h5>
+                  <p>Должность</p>
+                </div>
+              </li>
+            </ul>
           </div>
         </section>
       
@@ -1328,23 +1408,23 @@
     <script src="libs/OwlCarousel/owl.carousel.min.js"></script>
     <script type="text/javascript">
       $('.owl-carousel').owlCarousel({
-        loop:true,
+        // stagePadding: 50,
+        loop:false,
+        center: true,
         margin:10,
         autoWidth:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
         responsiveClass:true,
         responsive:{
           0:{
             items:1,
-            nav:true
-          },
-          600:{
-            items:3,
             nav:false
           },
-          1000:{
-            items:4,
-            nav:true,
-            loop:false
+          737:{
+            items:2,
+            nav:false
           }
         }
       })
