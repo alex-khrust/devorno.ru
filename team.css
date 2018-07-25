@@ -179,16 +179,16 @@
 }
 
 .member-2 .hexagon {
-  background-image: url(foto-team/photoshop_003.jpg);
-}
-.member-3 .hexagon {
   background-image: url(foto-team/photoshop_001_boss.jpg);
 }
-.member-4 .hexagon {
+.member-3 .hexagon {
   background-image: url(foto-team/photoshop_005.jpg);
 }
-.member-5 .hexagon {
+.member-4 .hexagon {
   background-image: url(foto-team/photoshop_0017-1-copy.jpg);
+}
+.member-5 .hexagon {
+  background-image: url(foto-team/photoshop_003.jpg);
 }
 .member-6 .hexagon {
   background-image: url(foto-team/photoshop_004.jpg);
