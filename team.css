@@ -243,7 +243,7 @@
   }
 }
 
-@media (min-width: 446px) {
+@media (min-width: 546px) {
   /*.team-container {*/
     /*padding: 0;*/
   /*}*/
@@ -252,7 +252,7 @@
     width: 50%;
   }
 }
-@media (min-width: 638px) {
+@media (min-width: 738px) {
   /*.team-container {*/
     /*padding: 0;*/
   /*}*/
@@ -263,7 +263,7 @@
     width: 50%;
   }
 }
-@media (min-width: 826px) {
+@media (min-width: 930px) {
   /*.team-container {*/
     /*padding: 0;*/
   /*}*/
