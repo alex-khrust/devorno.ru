@@ -9,7 +9,7 @@
 
 .team-container{
   width: 100%;
-  min-height: 100px;
+  min-height: 615px;
   background: #fff;
   padding: 40px 50px 80px;
   overflow: hidden;
@@ -182,10 +182,13 @@
   background-image: url(foto-team/photoshop_003.jpg);
 }
 .member-3 .hexagon {
-  background-image: url(foto-team/photoshop_004.jpg);
+  background-image: url(foto-team/photoshop_001_boss.jpg);
 }
 .member-4 .hexagon {
   background-image: url(foto-team/photoshop_005.jpg);
+}
+.member-6 .hexagon {
+  background-image: url(foto-team/photoshop_004.jpg);
 }
 
 

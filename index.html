@@ -29,6 +29,7 @@
     <link rel="stylesheet" type="text/css"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="libs/OwlCarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/OwlCarousel/assets/owl.theme.default.min.css">
     <!-- Facebook Pixel Code -->
     <script>
         !function (f, b, e, v, n, t, s) {
@@ -491,7 +492,7 @@
             <div class="team-title">
               <h3>Наша команда</h3>
             </div>
-            <ul class="team-items">
+            <ul id="teamItems" class="team-items">
               <li class="team__item member-1">
                 <div class="team__item--hexagon">
                   <div class="hexagon">
@@ -558,19 +559,6 @@
                 </div>
               </li>
               <li class="team__item member-6">
-                <div class="team__item--hexagon">
-                  <div class="hexagon">
-                    <div class="hexTop"></div>
-                    <div class="hexBottom"></div>
-                  </div>
-                  <div class="hexagon--border"></div>
-                </div>
-                <div class="team__item--description">
-                  <h5>Имя Фамилия</h5>
-                  <p>Должность</p>
-                </div>
-              </li>
-              <li class="team__item member-7">
                 <div class="team__item--hexagon">
                   <div class="hexagon">
                     <div class="hexTop"></div>
@@ -1342,6 +1330,7 @@
       $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
+        autoWidth:true,
         responsiveClass:true,
         responsive:{
           0:{
@@ -1359,6 +1348,19 @@
           }
         }
       })
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+          var windowWidth = $(window).width();
+          if(windowWidth > 768)$("#teamItems").addClass("owl-carousel");
+          else $("#teamItems").removeClass("owl-carousel");
+
+          $(window).resize(function(){
+            var windowWidth = $(window).width();
+            if(windowWidth > 768)$("#teamItems").addClass("owl-carousel");
+            else $("#teamItems").removeClass("owl-carousel");
+          });
+        });
     </script>
 
 
