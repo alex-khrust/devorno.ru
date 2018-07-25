@@ -241,12 +241,18 @@
   .team__item:nth-child(n+5) {
     width: 100%;
   }
+  .team-container {
+    padding: 10px 10px 80px;
+  }
 }
 
 @media (min-width: 546px) {
   .team__item,
   .team__item:nth-child(n+5) {
     width: 50%;
+  }
+  .team-container {
+    padding: 10px 10px 80px;
   }
 }
 @media (min-width: 738px) {
