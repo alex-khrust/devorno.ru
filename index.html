@@ -20,12 +20,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="keywords"
           content="Devorno веб студия, web studio Devorno, создание веб сайтов, разработка сайтов, дорогой дизайн, заказать сайт, посчитать стоимость сайта, сколько стоит сайт">
-    <link rel="stylesheet" href="team.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="css/sumoselect.min.css">
     <link rel="stylesheet" href="morphext.css">
-    <link rel="stylesheet" type="text/css"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="team.css">
+    <link rel="stylesheet" href="libs/OwlCarousel/assets/owl.carousel.min.css">
     <!-- Facebook Pixel Code -->
     <script>
         !function (f, b, e, v, n, t, s) {
@@ -1310,7 +1311,6 @@
     </footer>
 
     <script src="js/jquery.js"></script>
-
     <script src="js/libs.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@1.5.4/src/loadingoverlay.min.js"></script>
     <script type="text/javascript" src="js/jquery.sumoselect.min.js"></script>
@@ -1334,6 +1334,29 @@
       }
     });
 
+    </script>
+    <script src="libs/OwlCarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+      $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        responsive:{
+          0:{
+            items:1,
+            nav:true
+          },
+          600:{
+            items:3,
+            nav:false
+          },
+          1000:{
+            items:4,
+            nav:true,
+            loop:false
+          }
+        }
+      })
     </script>
 
 
