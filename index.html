@@ -25,11 +25,11 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="css/sumoselect.min.css">
     <link rel="stylesheet" href="morphext.css">
+    <link rel="stylesheet" href="libs/OwlCarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/OwlCarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="team.css">
     <link rel="stylesheet" type="text/css"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="libs/OwlCarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="libs/OwlCarousel/assets/owl.theme.default.min.css">
     <!-- Facebook Pixel Code -->
     <script>
         !function (f, b, e, v, n, t, s) {
@@ -105,42 +105,57 @@
                 <nav class="main-header__nav">
                     <ul class="main-header__nav__list">
                         <li class="main-header__nav__list--item logo">
-                            <a href="lnd.html#main-header">
+                            <a href="#main-header">
                                 <img src="img/general/logo.png"
                                      alt="Logo">
                             </a>
                         </li>
                         <li>
-                            <a class="main-header__nav__list--item" href="lnd.html#why-we">
-                                О
-                                нас
+                            <a class="main-header__nav__list--item" href="#why-we">
+                                О нас
                             </a>
                         </li>
                         <li>
                             <a class="main-header__nav__list--item"
-                               href="lnd.html#portfolio">Портфолио</a>
+                               href="#portfolio">Портфолио</a>
                         </li>
                         <li>
-                            <a class="main-header__nav__list--item" href="lnd.html#skills">
-                                Наши
-                                навыки
+                            <a class="main-header__nav__list--item" href="#skills">
+                                Наши навыки
                             </a>
                         </li>
                         <li>
-                            <a class="main-header__nav__list--item" href="lnd.html#calc">Калькулятор</a>
+                            <a class="main-header__nav__list--item" href="#calc">Калькулятор</a>
                         </li>
                         <li>
                             <img class="img-phone" src="img/general/phone-call-white.png" alt="Phone call">
-                            <a class="main-form__left__user-controls__info--phone"
-                               id="ahrefTelMainPage" href="tel:+380614567893">
-                              +38 061 456 7893
+                            <a class="main-form__left__user-controls__info--phone"  href="tel:+380614567893">+38 061 456 7893
                             </a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </div>
-        <div class="main-header__top-banner"></div>
+        <ul class="main-header__top-banner owl-carousel owl-theme">
+          <li class="main-header__top-banner--slide1">
+            <div class="slider-content">
+              <h3>Лендинг в рассрочку, от 1990/месяц</h3>
+              <input type="button" class="btn-top-banner" value="Заказать">
+            </div>
+          </li>
+          <li class="main-header__top-banner--slide2">
+            <div class="slider-content">
+              <h3>Делаем сайты с любовью и без "движков"</h3>
+              <input type="button" class="btn-top-banner" value="Заказать">
+            </div>
+          </li>
+          <li class="main-header__top-banner--slide3">
+            <div class="slider-content">
+              <h3>Наши сайты полюбят Ваши клиенты!</h3>
+              <input type="button" class="btn-top-banner" value="Заказать">
+            </div>
+          </li>
+        </ul>
     </header>
 
     <main>
@@ -151,145 +166,150 @@
 
         <section class="main-form main-form--inSimpleWords">
             <div class="container container--narrow">
+                
+                <!--Старая редакция блока, закомментил на всякий случай-->
+                <div style="display: none" class="old-in-comment">
+                  <!--<div class="main-form__auxiliary">-->
+                  <!--<div class="main-form__left__user-controls&#45;&#45;icon">-->
+                  <!--<img src="img/general/phone-call.png" alt="Phone call">-->
+                  <!--</div>-->
+                  <!--<div class="main-form__left__user-controls__info">-->
+                  <!--<ul class="main-form__left__user-controls__info__lang">-->
+
+                  <!--<li class="main-form__left__user-controls__info__lang&#45;&#45;item"-->
+                  <!--id="hdRuPhone">-->
+                  <!--<a href="lnd.html#"-->
+                  <!--class="ignoreJumping">RU</a>-->
+                  <!--</li>-->
+                  <!--<li class="main-form__left__user-controls__info__lang&#45;&#45;item"-->
+                  <!--id="hdPlPhone">-->
+                  <!--<a href="lnd.html#"-->
+                  <!--class="ignoreJumping">PL</a>-->
+                  <!--</li>-->
+                  <!--<li class="main-form__left__user-controls__info__lang&#45;&#45;item"-->
+                  <!--id="hdUsPhone">-->
+                  <!--<a href="lnd.html#"-->
+                  <!--class="ignoreJumping">US</a>-->
+                  <!--</li>-->
+                  <!--<li class="main-form__left__user-controls__info__lang&#45;&#45;item "-->
+                  <!--id="hdUaPhone">-->
+                  <!--<a href="lnd.html#"-->
+                  <!--class="ignoreJumping">UA</a>-->
+                  <!--</li>-->
+                  <!--</ul>-->
+                  <!--<a class="main-form__left__user-controls__info&#45;&#45;phone"-->
+                  <!--id="ahrefTelMainPage" href="tel:+7(958)581-51-32">-->
+
+                  <!--+7(958)581-51-32-->
+                  <!--</a>-->
+                  <!--</div>-->
+                  <!--</div>-->
+                  <!--&lt;!&ndash; /.main-form__auxiliary &ndash;&gt;-->
+
+                  <!--<h1 class="main-form__title">-->
+                  <!--Лендинг в рассрочку!-->
+                  <!--</h1>-->
+                  <!--&lt;!&ndash; /.main-form__title &ndash;&gt;-->
+                  <!--&lt;!&ndash; /.main-form__subTitle &ndash;&gt;-->
+                  <!--<div class="main-form__subTitle text">-->
+
+                  <!--<h3>Закажи <span id="js-rotating"><strong>красивый </strong>, качественный, мобильный, удобный </span> сайт сейчас, а заплати <strong>потом</strong></h3>-->
+
+                  <!--</div>-->
 
 
-                <div class="main-form__auxiliary">
-                    <div class="main-form__left__user-controls--icon">
-                        <img src="img/general/phone-call.png" alt="Phone call">
-                    </div>
-                    <div class="main-form__left__user-controls__info">
-                        <ul class="main-form__left__user-controls__info__lang">
+                  <!--<ul class="main-form__advantages formAdvantages">-->
 
-                            <li class="main-form__left__user-controls__info__lang--item"
-                                id="hdRuPhone">
-                                <a href="lnd.html#"
-                                   class="ignoreJumping">RU</a>
-                            </li>
-                            <li class="main-form__left__user-controls__info__lang--item"
-                                id="hdPlPhone">
-                                <a href="lnd.html#"
-                                   class="ignoreJumping">PL</a>
-                            </li>
-                            <li class="main-form__left__user-controls__info__lang--item"
-                                id="hdUsPhone">
-                                <a href="lnd.html#"
-                                   class="ignoreJumping">US</a>
-                            </li>
-                            <li class="main-form__left__user-controls__info__lang--item "
-                                id="hdUaPhone">
-                                <a href="lnd.html#"
-                                   class="ignoreJumping">UA</a>
-                            </li>
-                        </ul>
-                        <a class="main-form__left__user-controls__info--phone"
-                           id="ahrefTelMainPage" href="tel:+7(958)581-51-32">
+                  <!--<li class="formAdvantages__item">-->
+                  <!--<span class="formAdvantages__text">-->
+                  <!--Рассрочка на 1 год. Новые клиенты уже сейчас!-->
+                  <!--</span>-->
+                  <!--</li>-->
+                  <!--&lt;!&ndash; /.formAdvantages__item &ndash;&gt;-->
+                  <!--<li class="formAdvantages__item">-->
+                  <!--<span class="formAdvantages__text">-->
+                  <!--Уникальное предложение на рынке до <b>18.02.2018!</b>-->
+                  <!--</span>-->
+                  <!--</li>-->
+                  <!--</ul>-->
+                  <!--&lt;!&ndash; /.main-form__advantages &ndash;&gt;-->
 
-                            +7(958)581-51-32
-                        </a>
-                    </div>
+                  <!--<div class="main-form__variants formVariants">-->
+
+                  <!--<div class="variantsBlock ">-->
+
+                  <!--<h4 class="variantsBlock__title">-->
+                  <!--Premium-->
+                  <!--</h4>-->
+                  <!--&lt;!&ndash; /.variantsBlock__title &ndash;&gt;-->
+
+                  <!--<ul class="variantsBlock__list">-->
+                  <!--<li class="variantsBlock__item">-->
+                  <!--<span>Первый платеж <b>10 000 руб</b></span>-->
+                  <!--</li>-->
+                  <!--<li class="variantsBlock__item">-->
+                  <!--<span>Уникальный дизайн</span>-->
+                  <!--</li>-->
+                  <!--<li class="variantsBlock__item">-->
+                  <!--<span>Домен и хостинг на год</span>-->
+                  <!--</li>-->
+
+                  <!--<li class="variantsBlock__item">-->
+                  <!--<span>Ежемесячный платеж  <b>2900 руб</b></span>-->
+                  <!--</li>-->
+                  <!--<li class="variantsBlock__item variantsBlock__item&#45;&#45;fade">-->
+                  <!--<span>Деньги на рекламу в google</span>-->
+                  <!--<span>0,00 руб.</span>-->
+                  <!--</li>-->
+                  <!--</ul>-->
+                  <!--&lt;!&ndash; /.variantsBlock__list &ndash;&gt;-->
+
+                  <!--</div>-->
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!--&lt;!&ndash; /.variantsBlock  &ndash;&gt;-->
+
+
+                  <!--<div class="variantsBlock variantsBlock&#45;&#45;gold ">-->
+
+                  <!--<h4 class="variantsBlock__title variantsBlock__title&#45;&#45;gold">-->
+                  <!--Gold-->
+                  <!--</h4>-->
+                  <!--&lt;!&ndash; /.variantsBlock__title &ndash;&gt;-->
+
+                  <!--<ul class="variantsBlock__list">-->
+                  <!--<li class="variantsBlock__item">-->
+                  <!--<span>Первый платеж <b>15 000 руб</b></span>-->
+                  <!--</li>-->
+                  <!--<li class="variantsBlock__item">-->
+                  <!--<span>Уникальный дизайн</span>-->
+                  <!--</li>-->
+                  <!--<li class="variantsBlock__item">-->
+                  <!--<span>Домен и хостинг на год</span>-->
+                  <!--</li>-->
+
+                  <!--<li class="variantsBlock__item">-->
+                  <!--<span>Ежемесячный платеж  <b>1990 руб</b></span>-->
+                  <!--</li>-->
+                  <!--<li class="variantsBlock__item">-->
+                  <!--<span>Деньги на рекламу в google</span>-->
+                  <!--<span>2000,00 руб.</span>-->
+                  <!--</li>-->
+                  <!--</ul>-->
+                  <!--&lt;!&ndash; /.variantsBlock__list &ndash;&gt;-->
+
+                  <!--</div>-->
+                  <!--&lt;!&ndash; /.variantsBlock  &ndash;&gt;-->
+
+                  <!--</div>-->
                 </div>
-              <!-- /.main-form__auxiliary -->
-
-                <h1 class="main-form__title">
-                    Лендинг в рассрочку!
-                </h1>
-              <!-- /.main-form__title -->
-              <!-- /.main-form__subTitle -->
-                <div class="main-form__subTitle text">
-
-                    <h3>Закажи <span id="js-rotating"><strong>красивый </strong>, качественный, мобильный, удобный </span> сайт сейчас, а заплати <strong>потом</strong></h3>
-
-                </div>
-
-
-                <ul class="main-form__advantages formAdvantages">
-
-                    <li class="formAdvantages__item">
-                        <span class="formAdvantages__text">
-                            Рассрочка на 1 год. Новые клиенты уже сейчас!
-                        </span>
-                    </li>
-                  <!-- /.formAdvantages__item -->
-                    <li class="formAdvantages__item">
-                        <span class="formAdvantages__text">
-                            Уникальное предложение на рынке до <b>18.02.2018!</b>
-                        </span>
-                    </li>
-                </ul>
-              <!-- /.main-form__advantages -->
-
-                <div class="main-form__variants formVariants">
-
-                    <div class="variantsBlock ">
-
-                        <h4 class="variantsBlock__title">
-                            Premium
-                        </h4>
-                      <!-- /.variantsBlock__title -->
-
-                        <ul class="variantsBlock__list">
-                            <li class="variantsBlock__item">
-                                <span>Первый платеж <b>10 000 руб</b></span>
-                            </li>
-                            <li class="variantsBlock__item">
-                                <span>Уникальный дизайн</span>
-                            </li>
-                            <li class="variantsBlock__item">
-                                <span>Домен и хостинг на год</span>
-                            </li>
-
-                            <li class="variantsBlock__item">
-                                <span>Ежемесячный платеж  <b>2900 руб</b></span>
-                            </li>
-                            <li class="variantsBlock__item variantsBlock__item--fade">
-                                <span>Деньги на рекламу в google</span>
-                                <span>0,00 руб.</span>
-                            </li>
-                        </ul>
-                      <!-- /.variantsBlock__list -->
-
-                    </div>
-  
-  
-  
-                  <!-- /.variantsBlock  -->
-
-
-                    <div class="variantsBlock variantsBlock--gold ">
-
-                        <h4 class="variantsBlock__title variantsBlock__title--gold">
-                            Gold
-                        </h4>
-                      <!-- /.variantsBlock__title -->
-
-                        <ul class="variantsBlock__list">
-                            <li class="variantsBlock__item">
-                                <span>Первый платеж <b>15 000 руб</b></span>
-                            </li>
-                            <li class="variantsBlock__item">
-                                <span>Уникальный дизайн</span>
-                            </li>
-                            <li class="variantsBlock__item">
-                                <span>Домен и хостинг на год</span>
-                            </li>
-
-                            <li class="variantsBlock__item">
-                                <span>Ежемесячный платеж  <b>1990 руб</b></span>
-                            </li>
-                            <li class="variantsBlock__item">
-                                <span>Деньги на рекламу в google</span>
-                                <span>2000,00 руб.</span>
-                            </li>
-                        </ul>
-                      <!-- /.variantsBlock__list -->
-
-                    </div>
-                  <!-- /.variantsBlock  -->
-
+                
+                <div class="main-form__title">
+                  <h2>Профессиональная  разработка сайтов  <span>под ключ в Украине</span></h2>
                 </div>
   
-              <!-- /.main-form__variants -->
-
+              <!-- /.main-form -->
                 <form class="main-form__form mainForm"
                       method="post" id="frmLand"
                       action="http://api.devorno.ru/api/mainpage/landReq"
@@ -297,54 +317,25 @@
                     <input type="hidden" id="lndlocaldatetime" name="localdatetime" />
                     <input type="hidden" id="lndip" name="IP" />
 
-                    <div class="mainForm__part">
-                        <textarea  name="Comments"
-                                   placeholder="Опишите ваш бизнес. Пожелания по сайту."  maxlength="200" oninvalid="this.setCustomValidity('Пожалуйста,заполните поле!')" pattern=".{10,}" required oninput="setCustomValidity('')"
-                                   class="mainForm__textarea"></textarea>
-                    </div>
+                    
+                    <input class="mainForm__input-name" type="text" name="Name" placeholder="Ваше имя" required>
                   <!-- /.mainForm__part -->
 
 
-                    <div class="mainForm__part mainForm__part--second">
 
-                        <input class="mainForm__inputText"
-                               type="tel" required  oninvalid="this.setCustomValidity('Пожалуйста,введите Ваш номер.')" pattern=".{8,}"  oninput="setCustomValidity('')" maxlength="20"
+                    <input class="mainForm__input-tel"
+                           type="tel" required  oninvalid="this.setCustomValidity('Пожалуйста,введите Ваш номер.')" pattern=".{8,}"  oninput="setCustomValidity('')" maxlength="20"
                                name="Phone"
                                placeholder="Ваш телефон">
-
-                        <div class="mainForm__wrapRadio">
-
-                            <input class="mainForm__inputRadio"
-                                   type="radio"
-                                   id="userChoiceGold"
-                                   name="Package"
-                                   checked="checked"
-                                   value="gold">
-
-                            <label class="mainForm__label" for="userChoiceGold">
-                                Gold
-                            </label>
-
-
-                            <input class="mainForm__inputRadio"
-                                   type="radio"
-                                   id="userChoicePremium"
-                                   name="Package"
-                                   value="premium">
-                            <label class="mainForm__label" for="userChoicePremium">
-                                Premium
-                            </label>
-
-
-                        </div>
-                    </div>
+                  
                   <!-- /.mainForm__part -->
                     <div id="landingResult"></div>
                     
                     <button class="mainForm__button g-btn" type="submit"  id="lndBut" >
-                        Заказать!
+                        Заказать
                     </button>
                   <!-- /.mainForm__button -->
+                    <i>*Оставьте заявку и наш менеджер свяжется с Вами</i>
 
                 </form>
               <!-- /.main-form__form -->
@@ -579,7 +570,7 @@
                 </div>
               </li>
             </ul>
-            <ul id="carousel" class="team-items owl-carousel">
+            <ul id="carousel" class="team-items owl-carousel owl-theme">
               <li class="team__item member-1">
                 <div class="team__item--hexagon">
                   <div class="hexagon">
@@ -1414,6 +1405,25 @@
     </script>
     <script src="libs/OwlCarousel/owl.carousel.min.js"></script>
     <script type="text/javascript">
+      $('.main-header__top-banner').owlCarousel({
+        loop:true,
+        center: true,
+        autoplay:true,
+        autoplayTimeout:4000,
+        responsive:{
+          0:{
+            items:1
+          },
+          600:{
+            items:1,
+            nav:true
+          },
+          1000:{
+            items:1,
+            nav:true
+          }
+        }
+      });
       $('.owl-carousel').owlCarousel({
         // stagePadding: 50,
         loop:false,
