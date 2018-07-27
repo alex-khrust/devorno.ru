@@ -540,6 +540,7 @@
   margin: 20px 0;
 }
 
+.main-header__nav a:hover,
 .main-aside__orange a:hover {
   color: #222b47;
   text-decoration: none;
@@ -617,3 +618,17 @@
   transform: translate3d(0,-20px,0) rotate(-90deg)
 }
 
+
+
+
+/*top-menu-------------------------------------*/
+.logo {
+  max-width: 262px;
+  max-height: 262px;
+}
+@media (max-width: 1200px) {
+  .logo {
+    width: 20vw;
+    height: auto;
+  }
+}
