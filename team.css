@@ -295,7 +295,12 @@
 }
 
 .main-header__nav__list li:nth-child(2) {
-  margin-left: 21vw;
+  margin-left: 21.8vw;
+}
+@media (min-width: 1500px) {
+  .main-header__nav__list li:nth-child(2) {
+    margin-left: 300px;
+  }
 }
 
 .main-header__menu-bg {
@@ -650,7 +655,7 @@
     font-size: 1.37vw;
   }
 }
-@media (min-width: 1008px) {
+@media (max-width: 1048px) {
   .main-header__nav__list li a {
     font-size: 1.37vw;
   }
@@ -683,4 +688,6 @@
      max-width: 95%;
   }
 }
-
+.main-header__menu-bg .container{
+  max-width: 1140px;
+}
