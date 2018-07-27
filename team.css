@@ -642,6 +642,20 @@
 
   }
 }
+.main-header__nav__list li a {
+  font-size: 18px;
+}
+@media (max-width: 992px) {
+  .main-header__nav__list li a {
+    font-size: 1.37vw;
+  }
+}
+@media (min-width: 1008px) {
+  .main-header__nav__list li a {
+    font-size: 1.37vw;
+  }
+}
+
 
 @media (max-width: 768px) {
   .main-header__nav__list {
