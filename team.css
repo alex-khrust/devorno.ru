@@ -485,8 +485,10 @@
 /*}*/
 
 .main-aside__orange.open {
-  display: block;
+  display: flex;
   z-index: 100;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .main-aside {
   top: 337px;
@@ -500,6 +502,46 @@
   overflow: hidden;
 }
 
+.main-aside__orange-leng,
+.main-aside__orange__contacts,
+.main-aside__orange--phone,
+.main-aside__orange--email {
+  margin-bottom: 0;
+}
+.main-aside__orange__contacts {
+  height: 60%;
+  justify-content: space-around;
+}
+.main-aside__orange__menu {
+  position: relative;
+  /* margin-bottom: 100px; */
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+.main-aside__orange__menu--item,
+.main-aside__orange__social {
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+.main-aside__orange__menu:after,
+.main-aside__orange__contacts:after {
+  background-color: transparent;
+}
+.hr-line {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  margin: 20px 0;
+}
+
+.main-aside__orange a:hover {
+  color: #222b47;
+  text-decoration: none;
+}
 /*hamburger-------------------------------------------*/
 .hamburger {
   font: inherit;
