@@ -294,6 +294,10 @@
   height: 60px;
 }
 
+.main-header__nav__list li:nth-child(2) {
+  margin-left: 21vw;
+}
+
 .main-header__menu-bg {
   background-color: rgb(255, 8, 68);
   position: relative;
@@ -304,17 +308,7 @@
   z-index: 1;
 }
 
-.main-header__nav__list--item.logo {
-  margin-bottom: 0;
-  margin-top: 250px;
-  margin-right: 20px;
-  z-index: 100;
-}
 
-.main-header__nav__list--item {
-  margin-bottom: -60px;
-  margin-top: -142px;
-}
 
 .img-phone {
   position: relative;
@@ -324,6 +318,7 @@
 
 .main-header ul {
   margin-bottom: 0;
+  z-index: -1;
 }
 
 .owl-carousel {
@@ -622,13 +617,31 @@
 
 
 /*top-menu-------------------------------------*/
-.logo {
+
+.main-header__nav__list--item.logo {
+  width: 20vw;
+  height: auto;
   max-width: 262px;
   max-height: 262px;
+  z-index: 100;
+  margin: 0;
+  position: absolute;
+  top: 17px;
 }
+
 @media (max-width: 1200px) {
   .logo {
-    width: 20vw;
-    height: auto;
+
+  }
+}
+
+@media (min-width: 768px) {
+  .main-header__menu-bg .container {
+     max-width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .main-header__menu-bg .container {
+     max-width: 100%;
   }
 }
