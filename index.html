@@ -1265,11 +1265,11 @@
             </div>
             <div class="main-aside__blue">
                 <a class="main-aside__blue--open">
-                    <img src="img/general/mob-menu.png"
-                         alt="Mob-menu">
-                </a><a class="main-aside__blue--close">
-                    <img src="img/general/close.png"
-                         alt="Close">
+                  <div id="navToggle" class="hamburger hamburger--slider js-hamburger">
+                    <div class="hamburger-box">
+                      <div class="hamburger-inner"></div>
+                    </div>
+                  </div>
                 </a>
                 <ul class="aside-dots">
                     <li class="aside-dots--item">
@@ -1457,6 +1457,11 @@
             if(windowWidth < 738)$("#teamItems").addClass("owl-carousel");
             else $("#teamItems").removeClass("owl-carousel");
           });
+        });
+        //------------ menu hamburger -----------
+        $("#navToggle").click(function() {
+          $(this).toggleClass("is-active");
+          $(".main-aside__orange").toggleClass("open");
         });
     </script>
 
