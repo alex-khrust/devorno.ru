@@ -488,6 +488,17 @@
   display: block;
   z-index: 100;
 }
+.main-aside {
+  top: 337px;
+}
+.main-aside.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.main-aside__blue {
+  overflow: hidden;
+}
 
 /*hamburger-------------------------------------------*/
 .hamburger {
