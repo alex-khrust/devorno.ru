@@ -436,7 +436,9 @@
   align-items: center;
   justify-content: center;
 }
-
+.main-form {
+  overflow: hidden;
+}
 .main-form__form i {
   font-size: 14px;
   font-family: "OpenSans", sans-serif;
