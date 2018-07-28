@@ -719,6 +719,9 @@
   position: relative;
   top: 4px;
 }
+.main-header__nav__list--item.mob-phone a {
+  font-size: 14px !important;
+}
 .main-header__nav__list--item.mob-email {
   display: none;
   border: 0;
@@ -727,4 +730,29 @@
   top: 16px;
   right: 80px;
   height: auto;
+}
+
+@media (max-width: 370px) {
+  .main-header__nav__list--item.mob-email {
+    display: none !important;
+  }
+  .main-header__nav__list--item.mob-phone {
+    top: 0;
+    letter-spacing: -0.1px;
+    margin-left: 28%;
+  }
+}
+@media (max-width: 450px) {
+  .main-header__nav__list--item.mob-phone img {
+    display: none;
+  }
+  .main-header__nav__list--item.mob-phone {
+    top: 0;
+    letter-spacing: -0.1px;
+  }
+}
+@media (max-width: 768px) {
+  .main-header__nav__list--item.mob-phone {
+    font-style: 18px !important;
+  }
 }
