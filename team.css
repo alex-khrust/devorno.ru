@@ -317,7 +317,7 @@
 
 .img-phone {
   position: relative;
-  top: -5px;
+  top: -2px;
   right: -10px;
 }
 
@@ -664,13 +664,14 @@
 }
 .main-header__nav__list li a {
   font-size: 18px;
+  padding: 20px 10px !important;
 }
 @media (max-width: 992px) {
   .main-header__nav__list li a {
     font-size: 1.37vw;
   }
 }
-@media (max-width: 1048px) {
+@media (max-width: 1070px) {
   .main-header__nav__list li a {
     font-size: 1.37vw;
   }
@@ -713,11 +714,11 @@
 .main-header__nav__list--item.mob-phone {
   margin-left: 24%;
   display: none;
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
   font-weight: 700;
   position: relative;
-  top: 4px;
+  top: 0;
 }
 .main-header__nav__list--item.mob-phone a {
   font-size: 14px !important;
@@ -737,22 +738,17 @@
     display: none !important;
   }
   .main-header__nav__list--item.mob-phone {
-    top: 0;
-    letter-spacing: -0.1px;
     margin-left: 28%;
+  }
+  .main-header__nav__list li a {
+    letter-spacing: -0.1px !important;
   }
 }
 @media (max-width: 450px) {
   .main-header__nav__list--item.mob-phone img {
     display: none;
   }
-  .main-header__nav__list--item.mob-phone {
-    top: 0;
+  .main-header__nav__list li a {
     letter-spacing: -0.1px;
-  }
-}
-@media (max-width: 768px) {
-  .main-header__nav__list--item.mob-phone {
-    font-style: 18px !important;
   }
 }
