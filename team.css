@@ -422,6 +422,13 @@
     font-size: 25px;
   }
 }
+@media (min-width: 769px) {
+  .main-header__top-banner h3 {
+    width: 100%;
+    display: inline-block;
+    margin-left: 16%;
+  }
+}
 
 
 .mainForm__input-name,
