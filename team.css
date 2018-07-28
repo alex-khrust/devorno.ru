@@ -333,7 +333,8 @@
 .main-header__top-banner {
   background: none;
   overflow: hidden;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   position: relative;
 }
 
@@ -365,6 +366,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: inline-block;
   z-index: 2;
   /*outline: red solid 3px;*/
 }
@@ -373,8 +375,9 @@
   color: rgb(232, 7, 62) !important;
 }
 .main-header__top-banner h3 {
+  width: 100%;
   font-size: 53px;
-  font-family: "OpenSans";
+  font-family: "OpenSans", sans-serif;
   color: rgb(255, 255, 255);
   font-weight: bold;
   line-height: 1.273;
@@ -383,31 +386,41 @@
 }
 
 .main-header__top-banner .btn-top-banner {
-  background-color: transparent;
-  border: none;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb199), color-stop(#ff957d), color-stop(#f76), color-stop(#ff5253), to(#ff0844));
-  background-image: -o-linear-gradient(top, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
-  background-image: linear-gradient(to bottom, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
-  border-radius: 50px;
-  color: #fff;
-  font-size: 24px;
-  font-family: OpenSansBold;
-  text-transform: uppercase;
-  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.41), inset 0px 0px 6px 0px rgba(0, 0, 0, 0.05);
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.41), inset 0px 0px 6px 0px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.41), inset 0px 0px 6px 0px rgba(0, 0, 0, 0.05);
-  box-shadow0px: 4px 10px 0px rgba(0, 0, 0, 0.41), inset 0px 0px 6px 0px rgba(0, 0, 0, 0.05);
-  width: 247px;
-  height: 65px;
-  display: block;
-  position: absolute;
-  top: 175px;
-  z-index: 543;
+  display: initial;
+  position: relative;
+  margin-top: 40px;
+  border-radius: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 50px;
+  padding-right: 50px;
+  letter-spacing: 1px
 }
-.main-header__top-banner .btn-top-banner:hover {
-  opacity: 0.8;
-  cursor: pointer;
+
+
+@media (max-width: 768px) {
+  .main-header__top-banner h3 {
+    font-size: 35px;
+  }
+  .main-header__top-banner .btn-top-banner {
+    display: initial;
+    position: relative;
+    margin-top: 50px;
+  }
+  .main-header__top-banner .slider-content {
+    width: 100%;
+    height: 100%;
+    max-width: 634px;
+    max-height: 245px;
+    text-align: center;
+  }
 }
+@media (max-width: 425px) {
+  .main-header__top-banner h3 {
+    font-size: 25px;
+  }
+}
+
 
 .mainForm__input-name,
 .mainForm__input-tel {
@@ -750,5 +763,25 @@
   }
   .main-header__nav__list li a {
     letter-spacing: -0.1px;
+  }
+}
+
+.main-header__top-banner {
+  background-image: url("img/general/top-banner-bg.jpg");
+  background-size: contain;
+  background-position: top center;
+  width: 100%;
+  height: 100%;
+  min-height: 540px;
+  max-height: 540px;
+}
+@media (max-width: 768px) {
+  .main-header__top-banner {
+    width: 100%;
+    height: 100%;
+    min-height: 250px;
+    max-height: 400px;
+    background-size: contain;
+    background-position: top center;
   }
 }
