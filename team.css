@@ -647,8 +647,8 @@
   margin: 0;
   position: absolute;
   top: 17px;
-  min-width: 100px;
-  min-height: 100px;
+  min-width: 80px;
+  min-height: 80px;
 }
 
 .main-header__nav .hamburger {
@@ -679,9 +679,13 @@
 
 @media (max-width: 768px) {
   .main-header__nav__list {
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: start;
+     -webkit-box-pack: start;
+     -ms-flex-pack: start;
+     justify-content: start;
+   }
+  .main-header__nav__list li:nth-child(7),
+  .main-header__nav__list li:nth-child(8) {
+    display: inline-block;
   }
 }
 @media (max-width: 1200px) {
@@ -705,4 +709,22 @@
 }
 .main-header__menu-bg .container{
   max-width: 1140px;
+}
+.main-header__nav__list--item.mob-phone {
+  margin-left: 24%;
+  display: none;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  position: relative;
+  top: 4px;
+}
+.main-header__nav__list--item.mob-email {
+  display: none;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  top: 16px;
+  right: 80px;
+  height: auto;
 }
