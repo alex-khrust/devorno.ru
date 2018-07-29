@@ -323,7 +323,7 @@
 
 .main-header ul {
   margin-bottom: 0;
-  z-index: -1;
+  z-index: 0;
 }
 
 .owl-carousel {
@@ -373,6 +373,8 @@
 
 .main-header__top-banner--slide1 h3 {
   color: rgb(232, 7, 62) !important;
+  font-weight: bold;
+  line-height: 1.273;
 }
 .main-header__top-banner h3 {
   width: 100%;
@@ -793,4 +795,7 @@
     background-size: contain;
     background-position: top center;
   }
+}
+.main-header__nav__list li:hover {
+  opacity: 1;
 }
