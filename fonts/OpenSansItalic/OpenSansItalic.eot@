@@ -67,7 +67,7 @@
             <div class="container">
                 <div class="main-form__left">
                     <div class="main-form__left__user-controls">
-                        <div class="main-form__left__user-controls--icon"><img src="../../img/general/phone-call.png" alt="Phone call"></div>
+                        <div class="main-form__left__user-controls--icon"><img src="http://devorno.ru/img/general/phone-call.png" alt="Phone call"></div>
                         <div class="main-form__left__user-controls__info">
                             <ul class="main-form__left__user-controls__info__lang">
                                 <li class="main-form__left__user-controls__info__lang--item" id="hdRuPhone"><a href="OpenSansItalic.eot@#" class="ignoreJumping">RU</a></li>

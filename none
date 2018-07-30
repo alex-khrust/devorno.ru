@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="keywords" content="Devorno веб студия, web studio Devorno, создание веб сайтов, разработка сайтов, дорогой дизайн, заказать сайт, посчитать стоимость сайта, сколько стоит сайт">
     <link rel="stylesheet" type="text/css" href="http://devorno.ru/css/main-org.css">
-    <link rel="stylesheet" type="text/css" href="http://devorno.ru/fonts/OpenSansBoldItalic/css/sumoselect.min.css">
+    <link rel="stylesheet" type="text/css" href="css/sumoselect.min.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- Facebook Pixel Code -->
     <script>
@@ -52,11 +52,11 @@
             <div class="container">
                 <nav class="main-header__nav">
                     <ul class="main-header__nav__list">
-                        <li class="main-header__nav__list--item logo"><a href="OpenSansBoldItalic.eot@#main-header"><img src="../../img/general/logo.png" alt="Logo"></a></li>
-                        <li><a class="main-header__nav__list--item" href="OpenSansBoldItalic.eot@#why-we">О нас</a></li>
-                        <li><a class="main-header__nav__list--item" href="OpenSansBoldItalic.eot@#portfolio">Портфолио</a></li>
-                        <li><a class="main-header__nav__list--item" href="OpenSansBoldItalic.eot@#skills">Наши навыки</a></li>
-                        <li><a class="main-header__nav__list--item" href="OpenSansBoldItalic.eot@#calc">Стоимость</a></li>
+                        <li class="main-header__nav__list--item logo"><a href="none#main-header"><img src="img/general/logo.png" alt="Logo"></a></li>
+                        <li><a class="main-header__nav__list--item" href="none#why-we">О нас</a></li>
+                        <li><a class="main-header__nav__list--item" href="none#portfolio">Портфолио</a></li>
+                        <li><a class="main-header__nav__list--item" href="none#skills">Наши навыки</a></li>
+                        <li><a class="main-header__nav__list--item" href="none#calc">Стоимость</a></li>
                     </ul>
                 </nav>
             </div>
@@ -67,13 +67,13 @@
             <div class="container">
                 <div class="main-form__left">
                     <div class="main-form__left__user-controls">
-                        <div class="main-form__left__user-controls--icon"><img src="http://devorno.ru/img/general/phone-call.png" alt="Phone call"></div>
+                        <div class="main-form__left__user-controls--icon"><img src="img/general/phone-call.png" alt="Phone call"></div>
                         <div class="main-form__left__user-controls__info">
                             <ul class="main-form__left__user-controls__info__lang">
-                                <li class="main-form__left__user-controls__info__lang--item" id="hdRuPhone"><a href="OpenSansBoldItalic.eot@#" class="ignoreJumping">RU</a></li>
-                                <li class="main-form__left__user-controls__info__lang--item" id="hdPlPhone"><a href="OpenSansBoldItalic.eot@#" class="ignoreJumping">PL</a></li>
-                                <li class="main-form__left__user-controls__info__lang--item" id="hdUsPhone"><a href="OpenSansBoldItalic.eot@#" class="ignoreJumping">US</a></li>
-                                <li class="main-form__left__user-controls__info__lang--item " id="hdUaPhone"> <a href="OpenSansBoldItalic.eot@#" class="ignoreJumping">UA</a></li>
+                                <li class="main-form__left__user-controls__info__lang--item" id="hdRuPhone"><a href="none#" class="ignoreJumping">RU</a></li>
+                                <li class="main-form__left__user-controls__info__lang--item" id="hdPlPhone"><a href="none#" class="ignoreJumping">PL</a></li>
+                                <li class="main-form__left__user-controls__info__lang--item" id="hdUsPhone"><a href="none#" class="ignoreJumping">US</a></li>
+                                <li class="main-form__left__user-controls__info__lang--item " id="hdUaPhone"> <a href="none#" class="ignoreJumping">UA</a></li>
                             </ul><a class="main-form__left__user-controls__info--phone" id="ahrefTelMainPage" href="tel:+7(499)4031-1323"> +7(499)4031-1323</a>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                                 Спасибо!<br />
                                 <span class="main-form-success--body">Мы свяжемся с Вами в течении дня!</span>
                             </div>
-                            <div class="mf-close-btn closebtn"><img src="../../img/general/mf-close-btn.png" alt="Закрыть"></div>
+                            <div class="mf-close-btn closebtn"><img src="img/general/mf-close-btn.png" alt="Закрыть"></div>
                         </div>
                     </div>
                     <form class="main-form__right__form" id="frmContactUs" method="post" action="http://api.devorno.ru/api/mainpage/contactus" enctype="application/x-www-form-urlencoded">
@@ -249,7 +249,7 @@
                     <div class="want-form-success hide">
                         <div class="wf-success-wrapper">
                             <div class="want-form-success--title">Спасибо!</div>
-                            <div class="wf-close-btn closebtn"><img src="../../img/general/mf-close-btn.png" alt="Close Btn"></div>
+                            <div class="wf-close-btn closebtn"><img src="img/general/mf-close-btn.png" alt="Close Btn"></div>
                         </div>
                     </div>
                     <div class="want__form__top">
@@ -260,7 +260,7 @@
                     </div>
                     <textarea class="want__form--message" name="Comments" cols="30" rows="5" placeholder="Сообщение"></textarea>
                     <input class="want-order g-btn" id="bntFrmWantsSubmit" type="submit" name="want-order" value="Отправить заявку">
-                    <b>Нажимая на "Отправить заявку " Вы  автоматически соглашетесь с <a href="../../police-ru.html">правилами обработки персональных данных</a></b>
+                    <b>Нажимая на "Отправить заявку " Вы  автоматически соглашетесь с <a href="police-ru.html">правилами обработки персональных данных</a></b>
                 </form>
             </div>
         </section>
@@ -305,8 +305,8 @@
                             <div class="excellence__blue__info--title">Мы не используем CMS ( движки для сайтов )</div>
                             <div class="excellence__blue__info--descr">Cайт создается с нуля под потребности<br>клиента, а это стабильность и безопасность.</div>
                         </div>
-                    </div><a class="excellence__blue__btn" href="OpenSansBoldItalic.eot@#main-header"><span>Заказать</span></a>
-                    <div class="excellence__blue_img"><img src="../../img/content/exc-blue1.jpg" alt="Blue 1"></div>
+                    </div><a class="excellence__blue__btn" href="none#main-header"><span>Заказать</span></a>
+                    <div class="excellence__blue_img"><img src="img/content/exc-blue1.jpg" alt="Blue 1"></div>
                 </div>
                 <div class="excellence__red">
                     <div class="excellence__red__info">
@@ -314,8 +314,8 @@
                             <div class="excellence__red__info--title">Размещение веб-сайтов в Azure (облачный хостинг от майкрософта)</div>
                             <div class="excellence__red__info--descr">Защита от вмешательств со стороны органов<br>безопасность, скорость, масштабирование.</div>
                         </div>
-                    </div><a class="excellence__red__btn" href="OpenSansBoldItalic.eot@#main-header"><span>Заказать</span></a>
-                    <div class="excellence__red_img"><img src="../../img/content/exc-red1.jpg" alt="Red 1"></div>
+                    </div><a class="excellence__red__btn" href="none#main-header"><span>Заказать</span></a>
+                    <div class="excellence__red_img"><img src="img/content/exc-red1.jpg" alt="Red 1"></div>
                 </div>
                 <div class="excellence__blue">
                     <div class="excellence__blue__info">
@@ -323,8 +323,8 @@
                             <div class="excellence__blue__info--title">Мы работаем только с интересными проектами</div>
                             <div class="excellence__blue__info--descr">Не гоняемся за количеством, а делаем качественные интересные<br>проекты. <br>Те проекты, которые нам не по душе, мы не сможем сделать <br>хорошо,а значит не будем делать вообще.</div>
                         </div>
-                    </div><a class="excellence__blue__btn" href="OpenSansBoldItalic.eot@#main-header"><span>Заказать</span></a>
-                    <div class="excellence__blue_img"><img src="../../img/content/exc-blue2.jpg" alt="Blue 1"></div>
+                    </div><a class="excellence__blue__btn" href="none#main-header"><span>Заказать</span></a>
+                    <div class="excellence__blue_img"><img src="img/content/exc-blue2.jpg" alt="Blue 1"></div>
                 </div>
                 <div class="excellence__red">
                     <div class="excellence__red__info">
@@ -332,8 +332,8 @@
                             <div class="excellence__red__info--title">Долгосрочные отношения</div>
                             <div class="excellence__red__info--descr">Выстраиваем долгосрочные отношения с клиентами<br>Помогая развивать бизнес клиента, <br>мы сохраняем теплые отношения на долгие годы.</div>
                         </div>
-                    </div><a class="excellence__red__btn" href="OpenSansBoldItalic.eot@#main-header"><span>Заказать</span></a>
-                    <div class="excellence__red_img"><img src="../../img/content/exc-red2.jpg" alt="Red 1"></div>
+                    </div><a class="excellence__red__btn" href="none#main-header"><span>Заказать</span></a>
+                    <div class="excellence__red_img"><img src="img/content/exc-red2.jpg" alt="Red 1"></div>
                 </div>
             </div>
         </section>
@@ -459,7 +459,7 @@
                                     <span style="color:#FE0844;" class="hide" id="errorstep3"></span>
                                 </div>
                                 <input class="calc-order g-btn" type="button" onclick="SendCalc();" name="calc-order" id="calc-order" value="Сохранить и отправить">
-                                <b>Нажимая на "Сохранить и отправить" Вы  автоматически соглашетесь с <a href="../../police-ru.html">правилами обработки персональных данных</a></b>
+                                <b>Нажимая на "Сохранить и отправить" Вы  автоматически соглашетесь с <a href="police-ru.html">правилами обработки персональных данных</a></b>
                             </form>
                         </div>
                     </div>
@@ -468,8 +468,8 @@
                     </div>
                 </div>
                 <div class="slider_arrows" style="display: none;">
-                    <div class="slider__prew-arrow"><img src="../../img/general/prew-arrow.jpg" alt="Prew arrow"></div>
-                    <div class="slider__nex-arrow"><img src="../../img/general/nex-arrow.jpg" alt="Next arrow"></div>
+                    <div class="slider__prew-arrow"><img src="img/general/prew-arrow.jpg" alt="Prew arrow"></div>
+                    <div class="slider__nex-arrow"><img src="img/general/nex-arrow.jpg" alt="Next arrow"></div>
                 </div>
             </div>
         </section>
@@ -477,44 +477,44 @@
             <div class="main-aside__orange">
                 <div class="main-aside__orange__contacts">
                     <ul class="main-aside__orange-leng">
-                        <li class="main-aside__orange-leng--item" id="lmRuPhone"><a href="OpenSansBoldItalic.eot@#" class="ignoreJumping">RU</a></li>
-                        <li class="main-aside__orange-leng--item" id="lmPlPhone"><a href="OpenSansBoldItalic.eot@#" class="ignoreJumping">PL</a></li>
-                        <li class="main-aside__orange-leng--item" id="lmUsPhone"><a href="OpenSansBoldItalic.eot@#" class="ignoreJumping">US</a></li>
-                        <li class="main-aside__orange-leng--item" id="lmUaPhone"><a href="OpenSansBoldItalic.eot@#" class="ignoreJumping">UA</a></li>
+                        <li class="main-aside__orange-leng--item" id="lmRuPhone"><a href="none#" class="ignoreJumping">RU</a></li>
+                        <li class="main-aside__orange-leng--item" id="lmPlPhone"><a href="none#" class="ignoreJumping">PL</a></li>
+                        <li class="main-aside__orange-leng--item" id="lmUsPhone"><a href="none#" class="ignoreJumping">US</a></li>
+                        <li class="main-aside__orange-leng--item" id="lmUaPhone"><a href="none#" class="ignoreJumping">UA</a></li>
                     </ul><a class="main-aside__orange--phone" id="ahrefTelLeftMenu" href="tel:+7(499)4031-1323">+7(499)4031-1323</a><a class="main-aside__orange--email" href="http://www.google.com/recaptcha/mailhide/d?k=01oxK4h5B7wOa1pRAWE0EEFQ==&amp;c=6fo-459-ViczJnpBe0P8_qfSd_lsVAKTD8w4uNJJzKA=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01oxK4h5B7wOa1pRAWE0EEFQ\x3d\x3d\x26c\x3d6fo-459-ViczJnpBe0P8_qfSd_lsVAKTD8w4uNJJzKA\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">s...@devorno.com</a>
 
                 </div>
                 <ul class="main-aside__orange__menu">
-                    <li class="main-aside__orange__menu--item"><a href="OpenSansBoldItalic.eot@#why-we">О нас</a></li>
-                    <li class="main-aside__orange__menu--item"><a href="OpenSansBoldItalic.eot@#portfolio">Портфолио</a></li>
-                    <li class="main-aside__orange__menu--item"><a href="OpenSansBoldItalic.eot@#skills">Наши навыки</a></li>
-                    <li class="main-aside__orange__menu--item"><a href="OpenSansBoldItalic.eot@#calc">Стоимость</a></li>
+                    <li class="main-aside__orange__menu--item"><a href="none#why-we">О нас</a></li>
+                    <li class="main-aside__orange__menu--item"><a href="none#portfolio">Портфолио</a></li>
+                    <li class="main-aside__orange__menu--item"><a href="none#skills">Наши навыки</a></li>
+                    <li class="main-aside__orange__menu--item"><a href="none#calc">Стоимость</a></li>
                 </ul>
                 <ul class="main-aside__orange__social">
-                    <li class="main-aside__orange__social--item"><a href="OpenSansBoldItalic.eot@#"><img src="../../img/general/twitter.png" alt="Tweeter"></a></li>
-                    <li class="main-aside__orange__social--item"><a href="OpenSansBoldItalic.eot@#"><img src="../../img/general/instagram.png" alt="Instagramm"></a></li>
-                    <li class="main-aside__orange__social--item"><a href="OpenSansBoldItalic.eot@#"><img src="../../img/general/facebook.png" alt="Facebook"></a></li>
+                    <li class="main-aside__orange__social--item"><a href="none#"><img src="img/general/twitter.png" alt="Tweeter"></a></li>
+                    <li class="main-aside__orange__social--item"><a href="none#"><img src="img/general/instagram.png" alt="Instagramm"></a></li>
+                    <li class="main-aside__orange__social--item"><a href="none#"><img src="img/general/facebook.png" alt="Facebook"></a></li>
                 </ul>
             </div>
             <div class="main-aside__blue">
-                <a class="main-aside__blue--open"><img src="../../img/general/mob-menu.png" alt="Mob-menu"></a><a class="main-aside__blue--close"><img src="../../img/general/close.png" alt="Close"></a>
+                <a class="main-aside__blue--open"><img src="img/general/mob-menu.png" alt="Mob-menu"></a><a class="main-aside__blue--close"><img src="img/general/close.png" alt="Close"></a>
                 <ul class="aside-dots">
-                    <li class="aside-dots--item"><a class="active-li why-we-a" href="OpenSansBoldItalic.eot@#why-we"></a></li>
-                    <li class="aside-dots--item"><a class="portfolio-a" href="OpenSansBoldItalic.eot@#portfolio"></a></li>
-                    <li class="aside-dots--item"><a class="skills-a" href="OpenSansBoldItalic.eot@#skills"></a></li>
-                    <li class="aside-dots--item"><a class="calc-a" href="OpenSansBoldItalic.eot@#calc"></a></li>
+                    <li class="aside-dots--item"><a class="active-li why-we-a" href="none#why-we"></a></li>
+                    <li class="aside-dots--item"><a class="portfolio-a" href="none#portfolio"></a></li>
+                    <li class="aside-dots--item"><a class="skills-a" href="none#skills"></a></li>
+                    <li class="aside-dots--item"><a class="calc-a" href="none#calc"></a></li>
                 </ul>
             </div>
         </aside>
     </main>
     <footer class="main-footer">
         <div class="container">
-            <a class="main-footer--logo" href="OpenSansBoldItalic.eot@#main-header"><img src="../../img/general/footer-logo.png" alt="Footer logo"></a>
+            <a class="main-footer--logo" href="none#main-header"><img src="img/general/footer-logo.png" alt="Footer logo"></a>
             <ul class="main-footer__nav">
-                <li><a class="main-footer__nav--item" href="OpenSansBoldItalic.eot@#why-we"> О нас</a></li>
-                <li> <a class="main-footer__nav--item" href="OpenSansBoldItalic.eot@#portfolio">  Портфолио</a></li>
-                <li> <a class="main-footer__nav--item" href="OpenSansBoldItalic.eot@#skills">  Наши навыки</a></li>
-                <li><a class="main-footer__nav--item" href="OpenSansBoldItalic.eot@#calc">  Стоимость</a></li>
+                <li><a class="main-footer__nav--item" href="none#why-we"> О нас</a></li>
+                <li> <a class="main-footer__nav--item" href="none#portfolio">  Портфолио</a></li>
+                <li> <a class="main-footer__nav--item" href="none#skills">  Наши навыки</a></li>
+                <li><a class="main-footer__nav--item" href="none#calc">  Стоимость</a></li>
             </ul>
             <div class="main-footer__social">
                 <div class="main-footer__social--title">Мы в социальных сетях:</div>
@@ -522,12 +522,12 @@
                 
                     <li class="main-footer__social__list--item">
                         <a href="http://instagram.com/devorno">
-                            <img src="http://devorno.ru/fonts/OpenSansBoldItalic/img/general/instagram.png" alt="Instagramm">
+                            <img src="img/general/instagram.png" alt="Instagramm">
                         </a>
                     </li>
                     <li class="main-footer__social__list--item">
                         <a href="https://facebook.com/devorno" target="_blank">
-                            <img src="http://devorno.ru/fonts/OpenSansBoldItalic/img/general/facebook.png" alt="Facebook">
+                            <img src="img/general/facebook.png" alt="Facebook">
                         </a>
                     </li>
                 </ul><br />
@@ -547,19 +547,19 @@
                 <div class="main-footer__contscts__email"><a href="http://www.google.com/recaptcha/mailhide/d?k=01oxK4h5B7wOa1pRAWE0EEFQ==&amp;c=6fo-459-ViczJnpBe0P8_qfSd_lsVAKTD8w4uNJJzKA=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01oxK4h5B7wOa1pRAWE0EEFQ\x3d\x3d\x26c\x3d6fo-459-ViczJnpBe0P8_qfSd_lsVAKTD8w4uNJJzKA\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">s...@devorno.com</a></div>
             </div>
             <div class="main-footer__up-btn">
-                <a href="OpenSansBoldItalic.eot@#main-header">
-                    <img src="../../img/general/up-btn.png" alt="Up batton">
+                <a href="none#main-header">
+                    <img src="img/general/up-btn.png" alt="Up batton">
                     <div class="main-footer__up-btn--title">Вверх</div>
                 </a>
             </div>
         </div>
     </footer>
 
-    <script src="../../js/jquery.js"></script>
-    <script src="../../js/libs.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/libs.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@1.5.4/src/loadingoverlay.min.js"></script>
-    <script type="text/javascript" src="../../js/jquery.sumoselect.min.js"></script>
-    <script src="../../js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.sumoselect.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="http://devorno.ru/js/bindval.js"></script>
     <link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
     <script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=343853a193c673b5af6c2c7d243583c3" charset="UTF-8" async nomaps></script>

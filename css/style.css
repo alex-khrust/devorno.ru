@@ -1,80 +1,80 @@
 
 @font-face {
     font-family: "OpenSansRegular";
-    src: url("fonts/OpenSansRegular/OpenSansRegular.eot");
-    src: url("fonts/OpenSansRegular/OpenSansRegular.eot@") format("embedded-opentype"), url("fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"), url("fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot@") format("embedded-opentype"), url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"), url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "OpenSansLight";
-    src: url("fonts/OpenSansLight/OpenSansLight.eot");
-    src: url("fonts/OpenSansLight/OpenSansLight.eot@") format("embedded-opentype"), url("fonts/OpenSansLight/OpenSansLight.woff") format("woff"), url("fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot@") format("embedded-opentype"), url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"), url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "OpenSansItalic";
-    src: url("fonts/OpenSansItalic/OpenSansItalic.eot");
-    src: url("fonts/OpenSansItalic/OpenSansItalic.eot@") format("embedded-opentype"), url("fonts/OpenSansItalic/OpenSansItalic.woff") format("woff"), url("fonts/OpenSansItalic/OpenSansItalic.ttf") format("truetype");
+    src: url("../fonts/OpenSansItalic/OpenSansItalic.eot");
+    src: url("../fonts/OpenSansItalic/OpenSansItalic.eot@") format("embedded-opentype"), url("../fonts/OpenSansItalic/OpenSansItalic.woff") format("woff"), url("../fonts/OpenSansItalic/OpenSansItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "OpenSansBold";
-    src: url("fonts/OpenSansBold/OpenSansBold.eot");
-    src: url("fonts/OpenSansBold/OpenSansBold.eot@") format("embedded-opentype"), url("fonts/OpenSansBold/OpenSansBold.woff") format("woff"), url("fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot@") format("embedded-opentype"), url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"), url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "OpenSansExtraBold";
-    src: url("fonts/OpenSansExtraBold/OpenSansExtraBold.eot");
-    src: url("fonts/OpenSansExtraBold/OpenSansExtraBold.eot@") format("embedded-opentype"), url("fonts/OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"), url("fonts/OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype");
+    src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot");
+    src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot@") format("embedded-opentype"), url("../fonts/OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"), url("../fonts/OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "OpenSansExtraBoldItalic";
-    src: url("fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot");
-    src: url("fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot@") format("embedded-opentype"), url("fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff") format("woff"), url("fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf") format("truetype");
+    src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot");
+    src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot@") format("embedded-opentype"), url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff") format("woff"), url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "OpenSansBoldItalic";
-    src: url("fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot");
-    src: url("fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot@") format("embedded-opentype"), url("fonts/OpenSansBoldItalic/OpenSansBoldItalic.woff") format("woff"), url("fonts/OpenSansBoldItalic/OpenSansBoldItalic.ttf") format("truetype");
+    src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot");
+    src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot@") format("embedded-opentype"), url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.woff") format("woff"), url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "OpenSansRegularItalic";
-    src: url("fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot");
-    src: url("fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot@") format("embedded-opentype"), url("fonts/OpenSansRegularItalic/OpenSansRegularItalic.woff") format("woff"), url("fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf") format("truetype");
+    src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot");
+    src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot@") format("embedded-opentype"), url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.woff") format("woff"), url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "OpenSansSemiBold";
-    src: url("fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
-    src: url("fonts/OpenSansSemiBold/OpenSansSemiBold.eot@") format("embedded-opentype"), url("fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"), url("fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot@") format("embedded-opentype"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "OpenSansSemiBoldItalic";
-    src: url("fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot");
-    src: url("fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot@") format("embedded-opentype"), url("fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.woff") format("woff"), url("fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf") format("truetype");
+    src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot");
+    src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot@") format("embedded-opentype"), url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.woff") format("woff"), url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -694,7 +694,7 @@ template {
 
 /* Preload images */
 body:after {
-    content: url(images/close.png) url(images/loading.gif) url(images/prev.png) url(images/next.png);
+    content: url(../img/images/close.png) url(../img/images/loading.gif) url(../img/images/prev.png) url(../img/images/next.png);
     display: none;
 }
 
@@ -770,7 +770,7 @@ body.lb-disable-scrolling {
     width: 32px;
     height: 32px;
     margin: 0 auto;
-    background: url(images/loading.gif) no-repeat;
+    background: url(../img/images/loading.gif) no-repeat;
 }
 
 .lb-nav {
@@ -801,7 +801,7 @@ body.lb-disable-scrolling {
     width: 34%;
     left: 0;
     float: left;
-    background: url(images/prev.png) left 48% no-repeat;
+    background: url(../img/images/prev.png) left 48% no-repeat;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     -webkit-transition: opacity 0.6s;
@@ -818,7 +818,7 @@ body.lb-disable-scrolling {
     width: 64%;
     right: 0;
     float: right;
-    background: url(images/next.png) right 48% no-repeat;
+    background: url(../img/images/next.png) right 48% no-repeat;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     -webkit-transition: opacity 0.6s;
@@ -881,7 +881,7 @@ body.lb-disable-scrolling {
     float: right;
     width: 42px;
     height: 42px;
-    background: url(images/close.png) center no-repeat;
+    background: url(../img/images/close.png) center no-repeat;
     text-align: right;
     outline: none;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
@@ -1042,7 +1042,7 @@ main {
     left: 25px;
     width: 30px;
     height: 30px;
-    background-image: url("img/general/menu-phone-call.png");
+    background-image: url("../img/general/menu-phone-call.png");
 }
 
 .main-aside__orange--phone,
@@ -1067,7 +1067,7 @@ main {
     left: 25px;
     width: 30px;
     height: 22px;
-    background-image: url("img/general/menu-paper-plane.png");
+    background-image: url("../img/general/menu-paper-plane.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1232,7 +1232,7 @@ main {
 }
 
 .main-header__top-banner {
-    background-image: url("img/general/top-banner-bg.jpg");
+    background-image: url("../img/general/top-banner-bg.jpg");
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -1423,7 +1423,7 @@ main {
     left: -25px;
     width: 20px;
     height: 20px;
-    background-image: url("img/general/footer-phone-call.png");
+    background-image: url("../img/general/footer-phone-call.png");
 }
 
 .main-footer__contscts__phones--item:first-child:before {
@@ -1453,7 +1453,7 @@ main {
     left: -25px;
     width: 20px;
     height: 15px;
-    background-image: url("img/general/footer-paper-plane.png");
+    background-image: url("../img/general/footer-paper-plane.png");
 }
 
 .main-footer__up-btn {
@@ -1821,7 +1821,7 @@ main {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url("img/general/why-we-bg.png");
+    background-image: url("../img/general/why-we-bg.png");
     background-size: 360px auto;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1875,9 +1875,9 @@ main {
     border: 1px solid #fff;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url("img/general/solution.png"), -webkit-gradient(linear, left top, left bottom, from(#ffb199), color-stop(#ff957d), color-stop(#f76), color-stop(#ff5253), to(#ff0844));
-    background-image: url("img/general/solution.png"), -o-linear-gradient(top, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
-    background-image: url("img/general/solution.png"), linear-gradient(to bottom, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
+    background-image: url("../img/general/solution.png"), -webkit-gradient(linear, left top, left bottom, from(#ffb199), color-stop(#ff957d), color-stop(#f76), color-stop(#ff5253), to(#ff0844));
+    background-image: url("../img/general/solution.png"), -o-linear-gradient(top, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
+    background-image: url("../img/general/solution.png"), linear-gradient(to bottom, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
 }
 
 .experience:after {
@@ -1893,9 +1893,9 @@ main {
     border: 1px solid #fff;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url("img/general/experience.png"), -webkit-gradient(linear, left top, left bottom, from(#ffb199), color-stop(#ff957d), color-stop(#f76), color-stop(#ff5253), to(#ff0844));
-    background-image: url("img/general/experience.png"), -o-linear-gradient(top, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
-    background-image: url("img/general/experience.png"), linear-gradient(to bottom, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
+    background-image: url("../img/general/experience.png"), -webkit-gradient(linear, left top, left bottom, from(#ffb199), color-stop(#ff957d), color-stop(#f76), color-stop(#ff5253), to(#ff0844));
+    background-image: url("../img/general/experience.png"), -o-linear-gradient(top, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
+    background-image: url("../img/general/experience.png"), linear-gradient(to bottom, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
 }
 
 .technologies:after {
@@ -1911,9 +1911,9 @@ main {
     border: 1px solid #fff;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url("img/general/technologies.png"), -webkit-gradient(linear, left top, left bottom, from(#ffb199), color-stop(#ff957d), color-stop(#f76), color-stop(#ff5253), to(#ff0844));
-    background-image: url("img/general/technologies.png"), -o-linear-gradient(top, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
-    background-image: url("img/general/technologies.png"), linear-gradient(to bottom, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
+    background-image: url("../img/general/technologies.png"), -webkit-gradient(linear, left top, left bottom, from(#ffb199), color-stop(#ff957d), color-stop(#f76), color-stop(#ff5253), to(#ff0844));
+    background-image: url("../img/general/technologies.png"), -o-linear-gradient(top, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
+    background-image: url("../img/general/technologies.png"), linear-gradient(to bottom, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
 }
 
 .quality:after {
@@ -1929,9 +1929,9 @@ main {
     border: 1px solid #fff;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url("img/general/quality.png"), -webkit-gradient(linear, left top, left bottom, from(#ffb199), color-stop(#ff957d), color-stop(#f76), color-stop(#ff5253), to(#ff0844));
-    background-image: url("img/general/quality.png"), -o-linear-gradient(top, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
-    background-image: url("img/general/quality.png"), linear-gradient(to bottom, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
+    background-image: url("../img/general/quality.png"), -webkit-gradient(linear, left top, left bottom, from(#ffb199), color-stop(#ff957d), color-stop(#f76), color-stop(#ff5253), to(#ff0844));
+    background-image: url("../img/general/quality.png"), -o-linear-gradient(top, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
+    background-image: url("../img/general/quality.png"), linear-gradient(to bottom, #ffb199, #ff957d, #f76, #ff5253, #ff0844);
 }
 
 .advantages {
@@ -1980,7 +1980,7 @@ main {
 .advantages__left__uniqueness {
     height: 400px;
     max-height: 400px;
-    background-image: url("img/general/uniqueness-bg.jpg");
+    background-image: url("../img/general/uniqueness-bg.jpg");
     background-size: cover;
     background-position: center center;
     display: -webkit-box;
@@ -2046,7 +2046,7 @@ main {
 .advantages__left__hosting {
     height: 600px;
     max-height: 600px;
-    background-image: url("img/general/advantages-bg.jpg");
+    background-image: url("../img/general/advantages-bg.jpg");
     background-size: cover;
     background-position: center center;
     display: -webkit-box;
@@ -2112,7 +2112,7 @@ main {
 .advantages__right__obstinacy {
     height: 600px;
     max-height: 600px;
-    background-image: url("img/general/obstinacy-bg.jpg");
+    background-image: url("../img/general/obstinacy-bg.jpg");
     background-size: cover;
     background-position: center center;
     display: -webkit-box;
@@ -2177,7 +2177,7 @@ main {
 .advantages__right__security {
     height: 400px;
     max-height: 400px;
-    background-image: url("img/general/content-bg.jpg");
+    background-image: url("../img/general/content-bg.jpg");
     background-size: cover;
     background-position: center center;
     display: -webkit-box;
@@ -2464,7 +2464,7 @@ main {
     top: 0;
     width: 100px;
     background-color: rgba(34, 43, 71, 0.8);
-    background-image: url("img/general/skroll.png");
+    background-image: url("../img/general/skroll.png");
     background-repeat: no-repeat;
     background-position: bottom center;
     border-left: 1px solid #fff;
@@ -2494,7 +2494,7 @@ main {
 .want {
     min-height: 500px;
     background-color: #ff0844;
-    background-image: url("img/general/want-bg.jpg");
+    background-image: url("../img/general/want-bg.jpg");
     background-position: center center;
     background-size: auto 400px;
     background-repeat: no-repeat;
@@ -2672,7 +2672,7 @@ main {
     align-items: flex-end;
     text-align: left;
     padding: 100px 0;
-    background-image: url("img/general/skills-left-bg.jpg");
+    background-image: url("../img/general/skills-left-bg.jpg");
 }
 
 .skills_wrapper {
@@ -2852,7 +2852,7 @@ main {
     width: 100%;
     max-width: 1060px;
     max-height: 500px;
-    background-image: url("img/general/ex-blue-bg.png");
+    background-image: url("../img/general/ex-blue-bg.png");
     background-position: center right;
     margin-right: -380px;
     padding-right: 180px;
@@ -2939,7 +2939,7 @@ main {
     justify-content: flex-start;
     width: 100%;
     max-width: 1155px;
-    background-image: url("img/general/ex-red-bg.png");
+    background-image: url("../img/general/ex-red-bg.png");
     background-position: center left;
     margin-left: -300px;
     padding-left: 180px;
@@ -3015,7 +3015,7 @@ main {
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end;
-    background-image: url("img/general/reb-btn.png");
+    background-image: url("../img/general/reb-btn.png");
     background-size: cover;
     font-size: 14px;
     font-family: OpenSansBold, sans-serif;
@@ -3035,7 +3035,7 @@ main {
     transform: translateX(-50%);
     width: 22px;
     height: 20px;
-    background-image: url("img/general/gal.png");
+    background-image: url("../img/general/gal.png");
 }
 
 .excellence__red__btn {
@@ -3053,7 +3053,7 @@ main {
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end;
-    background-image: url("img/general/blue-btn.png");
+    background-image: url("../img/general/blue-btn.png");
     background-size: cover;
     font-size: 14px;
     font-family: OpenSansBold;
@@ -3073,11 +3073,11 @@ main {
     transform: translateX(-50%);
     width: 22px;
     height: 20px;
-    background-image: url("img/general/gal-r.png");
+    background-image: url("../img/general/gal-r.png");
 }
 
 .calc {
-    background-image: url("img/general/calc-bg.jpg");
+    background-image: url("../img/general/calc-bg.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -3149,19 +3149,19 @@ main {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-    background-image: url("img/general/1a.png");
+    background-image: url("../img/general/1a.png");
 }
 
 .slick-dots li:nth-child(2):before {
-    background-image: url("img/general/2a.png");
+    background-image: url("../img/general/2a.png");
 }
 
 .slick-dots li:nth-child(3):before {
-    background-image: url("img/general/3a.png");
+    background-image: url("../img/general/3a.png");
 }
 
 .slick-dots li:nth-child(4):before {
-    background-image: url("img/general/4a.png");
+    background-image: url("../img/general/4a.png");
 }
 
 .slick-dots li:hover:before {
@@ -3263,7 +3263,7 @@ main {
     left: -5px;
     width: 20px;
     height: 20px;
-    background-image: url("img/general/calc-dot.png");
+    background-image: url("../img/general/calc-dot.png");
 }
 
 .calc-form__wrapper {
@@ -4723,7 +4723,7 @@ main {
     position: relative;
     width: 34px;
     height: 37px;
-    background-image: url(img/general/advantages-like.png);
+    background-image: url(../img/general/advantages-like.png);
     -webkit-background-size: 100% auto;
     background-size:100% auto;
     background-position: left center;
@@ -4968,7 +4968,7 @@ main {
     width: 25px;
     height: 25px;
     display: inline-block;
-    background-image: url(img/general/checkbox-active.png);
+    background-image: url(../img/general/checkbox-active.png);
     -webkit-background-size:100% auto;
     background-size:100% auto;
     background-position: center;

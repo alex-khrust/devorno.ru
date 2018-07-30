@@ -16,7 +16,7 @@
   background: #fff;
   padding: 40px 50px 80px;
   overflow: hidden;
-  background: url("foto-team/photoshop_0017-final.jpg") no-repeat center / cover;
+  background: url("../img/foto-team/photoshop_0017-final.jpg") no-repeat center / cover;
 }
 
 .team-title {
@@ -111,7 +111,7 @@
   width: 120px;
   height: 69.28px;
   margin: 34.64px 0;
-  background-image: url(foto-team/photoshop_002.jpg);
+  background-image: url(../img/foto-team/photoshop_002.jpg);
   background-size: auto 133.9453px;
   background-position: center;
   border-left: solid 2px #ff0000;
@@ -182,19 +182,19 @@
 }
 
 .member-2 .hexagon {
-  background-image: url(foto-team/photoshop_001_boss.jpg);
+  background-image: url(../img/foto-team/photoshop_001_boss.jpg);
 }
 .member-3 .hexagon {
-  background-image: url(foto-team/photoshop_005.jpg);
+  background-image: url(../img/foto-team/photoshop_005.jpg);
 }
 .member-4 .hexagon {
-  background-image: url(foto-team/photoshop_0017-1-copy.jpg);
+  background-image: url(../img/foto-team/photoshop_0017-1-copy.jpg);
 }
 .member-5 .hexagon {
-  background-image: url(foto-team/photoshop_003.jpg);
+  background-image: url(../img/foto-team/photoshop_003.jpg);
 }
 .member-6 .hexagon {
-  background-image: url(foto-team/photoshop_004.jpg);
+  background-image: url(../img/foto-team/photoshop_004.jpg);
 }
 
 
@@ -351,13 +351,13 @@
 }
 
 .main-header__top-banner--slide1 {
-  background: url(img/general/top-banner-bg-1.jpg) no-repeat top / cover;
+  background: url(../img/general/top-banner-bg-1.jpg) no-repeat top / cover;
 }
 .main-header__top-banner--slide2 {
-  background: url(img/general/top-banner-bg-2.jpg) no-repeat top / cover;
+  background: url(../img/general/top-banner-bg-2.jpg) no-repeat top / cover;
 }
 .main-header__top-banner--slide3 {
-  background: url(img/general/top-banner-bg-3.jpg) no-repeat top / cover;
+  background: url(../img/general/top-banner-bg-3.jpg) no-repeat top / cover;
 }
 
 .main-header__top-banner .slider-content {
@@ -798,7 +798,7 @@
 }
 
 .main-header__top-banner {
-  background-image: url("img/general/top-banner-bg.jpg");
+  background-image: url("../img/general/top-banner-bg.jpg");
   background-size: contain;
   background-position: top center;
   width: 100%;
