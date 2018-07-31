@@ -499,3 +499,43 @@ function validation() {
     }
     return isValid;
 }
+
+// Кнопка поднятия вверх при скролле --------------------------------
+// $('.scroll-down').get(0) && $('.scroll-down').click(function () {
+//   $('body').scrollTo('#p1', 500)
+// }),
+// $('.main-footer__up-btn').get(0) && ($('.main-footer__up-btn').on('click', function () {
+//   $('body').scrollTo('#top', 500),
+//     $('.main-footer__up-btn').removeClass('active')
+// }), $(window).on('mousewheel', function (t) {
+//   $(window).scrollTop() > 600 && t.deltaY > 0 ? $('.main-footer__up-btn').addClass('active')  : $('.main-footer__up-btn').removeClass('active')
+// }), t && $(document).on('touchstart', function (t) {
+//   var e = t.originalEvent.touches[0].pageY;
+//   $(document).on('touchmove', function (t) {
+//     var i = t.originalEvent.touches[0].pageY - e;
+//     $(window).scrollTop() > 600 && i > 0 ? $('.main-footer__up-btn').addClass('active')  : $('.main-footer__up-btn').removeClass('active')
+//   })
+// }));
+
+$(function () {
+  $.fn.scrollToTop = function () {
+    $(this).hide().removeAttr("href");
+    if ($(window).scrollTop() >= "300") {
+      $(this).fadeIn("slow")
+    }
+    var scrollDiv = $(this);
+    $(window).scroll(function () {
+      if ($(window).scrollTop() <= "350") {
+        $(scrollDiv).fadeOut("slow")
+      } else {
+        $(scrollDiv).fadeIn("slow")
+      }
+    });
+    $(this).click(function () {
+      $("html, body").animate({scrollTop: 0}, "slow")
+    })
+  }
+});
+$(function () {
+  $("#go_up").scrollToTop();
+});
