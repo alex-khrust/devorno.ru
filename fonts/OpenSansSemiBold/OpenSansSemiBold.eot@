@@ -55,7 +55,7 @@
                         <li class="main-header__nav__list--item logo"><a href="OpenSansSemiBold.eot@#main-header"><img src="../../img/general/logo.png" alt="Logo"></a></li>
                         <li><a class="main-header__nav__list--item" href="OpenSansSemiBold.eot@#why-we">О нас</a></li>
                         <li><a class="main-header__nav__list--item" href="OpenSansSemiBold.eot@#portfolio">Портфолио</a></li>
-                        <li><a class="main-header__nav__list--item" href="OpenSansSemiBold.eot@#skills">Наши навыки</a></li>
+                        <li><a class="main-header__nav__list--item" href="OpenSansSemiBold.eot@#skills">Услуги</a></li>
                         <li><a class="main-header__nav__list--item" href="OpenSansSemiBold.eot@#calc">Стоимость</a></li>
                     </ul>
                 </nav>
@@ -267,7 +267,7 @@
         <section class="skills" id="skills">
             <div class="skills__left">
                 <div class="skills_wrapper">
-                    <div class="skills__left--title">Наши навыки</div>
+                    <div class="skills__left--title">Услуги</div>
                     <div class="skills__left--subtitle">Команда первоклассных профессионалов в каждом направлении</div>
                     <ul class="skills__left__list">
                         <li class="skills__left__list--item">Разработка веб сайтов</li>
@@ -487,7 +487,7 @@
                 <ul class="main-aside__orange__menu">
                     <li class="main-aside__orange__menu--item"><a href="OpenSansSemiBold.eot@#why-we">О нас</a></li>
                     <li class="main-aside__orange__menu--item"><a href="OpenSansSemiBold.eot@#portfolio">Портфолио</a></li>
-                    <li class="main-aside__orange__menu--item"><a href="OpenSansSemiBold.eot@#skills">Наши навыки</a></li>
+                    <li class="main-aside__orange__menu--item"><a href="OpenSansSemiBold.eot@#skills">Услуги</a></li>
                     <li class="main-aside__orange__menu--item"><a href="OpenSansSemiBold.eot@#calc">Стоимость</a></li>
                 </ul>
                 <ul class="main-aside__orange__social">
@@ -513,7 +513,7 @@
             <ul class="main-footer__nav">
                 <li><a class="main-footer__nav--item" href="OpenSansSemiBold.eot@#why-we"> О нас</a></li>
                 <li> <a class="main-footer__nav--item" href="OpenSansSemiBold.eot@#portfolio">  Портфолио</a></li>
-                <li> <a class="main-footer__nav--item" href="OpenSansSemiBold.eot@#skills">  Наши навыки</a></li>
+                <li> <a class="main-footer__nav--item" href="OpenSansSemiBold.eot@#skills">  Услуги</a></li>
                 <li><a class="main-footer__nav--item" href="OpenSansSemiBold.eot@#calc">  Стоимость</a></li>
             </ul>
             <div class="main-footer__social">

@@ -292,7 +292,7 @@ $("#frmL1and").submit(function () {
     var jqxhr = $.post('https://www.devorno.ru/api/mainpage/landReq', $('#frmLand').serialize())
         .success(function () {
 
-         
+
             $("#frmLand :input[text]").each(function () {
                 $(this).val('');
             });
@@ -501,41 +501,148 @@ function validation() {
 }
 
 // Кнопка поднятия вверх при скролле --------------------------------
-// $('.scroll-down').get(0) && $('.scroll-down').click(function () {
-//   $('body').scrollTo('#p1', 500)
-// }),
-// $('.main-footer__up-btn').get(0) && ($('.main-footer__up-btn').on('click', function () {
-//   $('body').scrollTo('#top', 500),
-//     $('.main-footer__up-btn').removeClass('active')
-// }), $(window).on('mousewheel', function (t) {
-//   $(window).scrollTop() > 600 && t.deltaY > 0 ? $('.main-footer__up-btn').addClass('active')  : $('.main-footer__up-btn').removeClass('active')
-// }), t && $(document).on('touchstart', function (t) {
-//   var e = t.originalEvent.touches[0].pageY;
-//   $(document).on('touchmove', function (t) {
-//     var i = t.originalEvent.touches[0].pageY - e;
-//     $(window).scrollTop() > 600 && i > 0 ? $('.main-footer__up-btn').addClass('active')  : $('.main-footer__up-btn').removeClass('active')
-//   })
-// }));
+// $(function () {
+//   $.fn.scrollToTop = function () {
+//     $(this).hide().removeAttr("href");
+//     if ($(window).scrollTop() >= "300") {
+//       $(this).fadeIn("slow")
+//     }
+//     var scrollDiv = $(this);
+//     $(window).scroll(function () {
+//       if ($(window).scrollTop() <= "350") {
+//         $(scrollDiv).fadeOut("slow")
+//       } else {
+//         $(scrollDiv).fadeIn("slow")
+//       }
+//     });
+//     $(this).click(function () {
+//       $("html, body").animate({scrollTop: 0}, "slow")
+//     })
+//   }
+// });
+// $(function () {
+//   $("#go_up").scrollToTop();
+// });
 
-$(function () {
-  $.fn.scrollToTop = function () {
-    $(this).hide().removeAttr("href");
-    if ($(window).scrollTop() >= "300") {
-      $(this).fadeIn("slow")
-    }
-    var scrollDiv = $(this);
-    $(window).scroll(function () {
-      if ($(window).scrollTop() <= "350") {
-        $(scrollDiv).fadeOut("slow")
-      } else {
-        $(scrollDiv).fadeIn("slow")
+
+
+// Скрытие меню при прокрутке------------------------------
+$(document).ready(function() {
+//scroll hide
+  var lastScrollTop = 60;
+  $(document).scroll(function(){
+    var stop = $(this).scrollTop();
+    if (stop > lastScrollTop){
+      console.log('down');
+      // scrolling down
+      if($('#menu').hasClass('menu-min'))
+      {
+        $('#menu').addClass('menu-close');
+        $('#menu').removeClass('menu-min');
       }
-    });
-    $(this).click(function () {
-      $("html, body").animate({scrollTop: 0}, "slow")
-    })
+    }
+    else
+    {
+      // scrolling up
+      if($('#menu').hasClass('menu-close'))
+      {
+        console.log('up');
+        $('#menu').addClass('menu-min');
+        $('#menu').removeClass('menu-close');
+      }
+    }
+    lastScrollTop = stop;
+  });
+});
+
+var dir = 1;
+var MIN_TOP = 200;
+var MAX_TOP = 350;
+
+function autoscroll() {
+  var window_top = $(window).scrollTop() + dir;
+  if (window_top >= MAX_TOP) {
+    window_top = MAX_TOP;
+    dir = -1;
+  } else if (window_top <= MIN_TOP) {
+    window_top = MIN_TOP;
+    dir = 1;
   }
+  $(window).scrollTop(window_top);
+  window.setTimeout(autoscroll, 10);
+}
+
+
+// -- Отправка формы popup form sender----------------------------------------------------
+
+$('#form_popup').submit(function(e) {
+
+  e.preventDefault();
+
+  var formData = $(this).serialize();
+
+  $.post('/send_form.php', formData, function(result) {
+
+    switch(result) {
+      case '1':
+        popUpShow();
+        $('#form_popup').addClass('submitted');
+        $('.succeeded').addClass('submitted');
+        break;
+
+      case '0':
+      default:
+        popUpShow();
+        $('#form_popup').addClass('submitted');
+        $('.failed').addClass('submitted');
+        break;
+    }
+  });
 });
-$(function () {
-  $("#go_up").scrollToTop();
+
+
+/// Popup Visibility Functions ------------------------------------------ ///
+
+// Popup Show Function //
+function popUpShow() {
+  $('#popup').fadeIn();
+  $('body').css({'overflow':'hidden'});
+}
+
+// Popup Hide Function //
+function popUpHide() {
+  $('#popup').fadeOut();
+  $('body').css({'overflow':'visible'});
+}
+
+
+//Стилизация #form_popup input[type='file'] -------------------------------------
+$(document).ready(function() {
+// $("#form_popup").get(0) && ($("#form_popup input[type='file'] + span").click(function() {
+//   $(this).parent().find($("input[type='file']")).click()
+// }),
+  $("#form_popup input[type='file']").change(function() {
+    var t = $(this).parent().find($("input[type='file']")).get(0).files
+      , i = !1;
+    for (e in t)
+      if (e == parseInt(e)) {
+        i = t[e].name;
+        break
+      }
+    !1 !== i && $("#form_popup input[type='file'] + span").text(i)
+  });
 });
+
+
+// Вызов карусельки по ширине экрана--- не рабоатет---------------------------------------
+// $(document).ready(function () {
+//   var windowWidth = $(window).width();
+//   if (windowWidth < 738) $("#teamItems").addClass("owl-carousel owl-theme");
+//   else $("#teamItems").removeClass("owl-carousel owl-theme");
+//
+//   $(window).resize(function () {
+//     var windowWidth = $(window).width();
+//     if (windowWidth < 738) $("#teamItems").addClass("owl-carousel owl-theme");
+//     else $("#teamItems").removeClass("owl-carousel owl-theme");
+//   });
+// });
